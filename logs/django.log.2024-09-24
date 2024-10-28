@@ -1,0 +1,1002 @@
+2024-09-24 14:16:30,087:WARNING:: "GET /static/assets/img/logo.png HTTP/1.1" 404 1816
+2024-09-24 14:16:30,087:WARNING:: "GET /static/assets/img/logo.png HTTP/1.1" 404 1816
+2024-09-24 14:16:30,480:WARNING:: "GET /static/assets/js/datatables.js HTTP/1.1" 404 1828
+2024-09-24 14:16:30,511:WARNING:: Not Found: /admin/assets/img/icons/weather-icon.png
+2024-09-24 14:16:30,511:WARNING:: Not Found: /admin/assets/img/icons/weather-icon.png
+2024-09-24 14:16:30,520:WARNING:: "GET /static/vue/js/chunk-vendors.js?v= HTTP/1.1" 404 1831
+2024-09-24 14:16:30,480:WARNING:: "GET /static/assets/js/datatables.js HTTP/1.1" 404 1828
+2024-09-24 14:16:30,542:WARNING:: "GET /static/vue/js/app.js?v= HTTP/1.1" 404 1801
+2024-09-24 14:16:30,518:WARNING:: "GET /static/assets/js/datatables.min.js HTTP/1.1" 404 1840
+2024-09-24 14:16:30,520:WARNING:: "GET /static/vue/js/chunk-vendors.js?v= HTTP/1.1" 404 1831
+2024-09-24 14:16:30,557:WARNING:: "GET /admin/assets/img/icons/weather-icon.png HTTP/1.1" 404 4551
+2024-09-24 14:16:30,542:WARNING:: "GET /static/vue/js/app.js?v= HTTP/1.1" 404 1801
+2024-09-24 14:16:30,518:WARNING:: "GET /static/assets/js/datatables.min.js HTTP/1.1" 404 1840
+2024-09-24 14:16:30,557:WARNING:: "GET /admin/assets/img/icons/weather-icon.png HTTP/1.1" 404 4551
+2024-09-24 14:16:30,723:WARNING:: "GET /static/img/team/3-thumb.png HTTP/1.1" 404 1819
+2024-09-24 14:16:30,723:WARNING:: "GET /static/img/team/3-thumb.png HTTP/1.1" 404 1819
+2024-09-24 14:32:15,752:WARNING:: "GET /static/vue/css/app.css?v= HTTP/1.1" 404 1807
+2024-09-24 14:32:15,752:WARNING:: "GET /static/vue/css/app.css?v= HTTP/1.1" 404 1807
+2024-09-24 14:32:15,798:WARNING:: "GET /static/assets/img/logo.png HTTP/1.1" 404 1816
+2024-09-24 14:32:15,798:WARNING:: "GET /static/assets/img/logo.png HTTP/1.1" 404 1816
+2024-09-24 14:32:15,931:WARNING:: Not Found: /admin/assets/img/icons/weather-icon.png
+2024-09-24 14:32:15,931:WARNING:: Not Found: /admin/assets/img/icons/weather-icon.png
+2024-09-24 14:32:15,937:WARNING:: "GET /admin/assets/img/icons/weather-icon.png HTTP/1.1" 404 4551
+2024-09-24 14:32:15,937:WARNING:: "GET /admin/assets/img/icons/weather-icon.png HTTP/1.1" 404 4551
+2024-09-24 14:32:16,039:WARNING:: "GET /static/assets/js/datatables.min.js HTTP/1.1" 404 1840
+2024-09-24 14:32:16,043:WARNING:: "GET /static/assets/js/datatables.js HTTP/1.1" 404 1828
+2024-09-24 14:32:16,039:WARNING:: "GET /static/assets/js/datatables.min.js HTTP/1.1" 404 1840
+2024-09-24 14:32:16,043:WARNING:: "GET /static/assets/js/datatables.js HTTP/1.1" 404 1828
+2024-09-24 14:32:16,116:WARNING:: "GET /static/img/team/3-thumb.png HTTP/1.1" 404 1819
+2024-09-24 14:32:16,116:WARNING:: "GET /static/img/team/3-thumb.png HTTP/1.1" 404 1819
+2024-09-24 14:32:16,497:WARNING:: Not Found: /admin/assets/img/icons/weather-icon.png
+2024-09-24 14:32:16,497:WARNING:: Not Found: /admin/assets/img/icons/weather-icon.png
+2024-09-24 14:32:16,498:WARNING:: "GET /admin/assets/img/icons/weather-icon.png HTTP/1.1" 404 4551
+2024-09-24 14:32:16,498:WARNING:: "GET /admin/assets/img/icons/weather-icon.png HTTP/1.1" 404 4551
+2024-09-24 14:32:28,073:WARNING:: "GET /static/vue/css/app.css?v= HTTP/1.1" 404 1807
+2024-09-24 14:32:28,073:WARNING:: "GET /static/vue/css/app.css?v= HTTP/1.1" 404 1807
+2024-09-24 14:34:30,747:WARNING:: "GET /static/vue/css/app.css?v= HTTP/1.1" 404 1807
+2024-09-24 14:34:30,747:WARNING:: "GET /static/vue/css/app.css?v= HTTP/1.1" 404 1807
+2024-09-24 14:34:30,776:WARNING:: "GET /static/assets/img/logo.png HTTP/1.1" 404 1816
+2024-09-24 14:34:30,776:WARNING:: "GET /static/assets/img/logo.png HTTP/1.1" 404 1816
+2024-09-24 14:34:30,922:WARNING:: "GET /static/assets/js/datatables.min.js HTTP/1.1" 404 1840
+2024-09-24 14:34:30,922:WARNING:: "GET /static/assets/js/datatables.min.js HTTP/1.1" 404 1840
+2024-09-24 14:34:30,922:WARNING:: "GET /static/assets/js/datatables.js HTTP/1.1" 404 1828
+2024-09-24 14:34:30,922:WARNING:: "GET /static/assets/js/datatables.js HTTP/1.1" 404 1828
+2024-09-24 14:34:30,971:WARNING:: "GET /static/img/team/3-thumb.png HTTP/1.1" 404 1819
+2024-09-24 14:34:30,971:WARNING:: "GET /static/img/team/3-thumb.png HTTP/1.1" 404 1819
+2024-09-24 14:34:32,435:WARNING:: "GET /static/vue/css/app.css?v= HTTP/1.1" 404 1807
+2024-09-24 14:34:32,435:WARNING:: "GET /static/vue/css/app.css?v= HTTP/1.1" 404 1807
+2024-09-24 14:34:32,449:WARNING:: "GET /static/assets/img/logo.png HTTP/1.1" 404 1816
+2024-09-24 14:34:32,449:WARNING:: "GET /static/assets/img/logo.png HTTP/1.1" 404 1816
+2024-09-24 14:34:32,571:WARNING:: "GET /static/assets/js/datatables.js HTTP/1.1" 404 1828
+2024-09-24 14:34:32,571:WARNING:: "GET /static/assets/js/datatables.js HTTP/1.1" 404 1828
+2024-09-24 14:34:32,573:WARNING:: "GET /static/assets/js/datatables.min.js HTTP/1.1" 404 1840
+2024-09-24 14:34:32,573:WARNING:: "GET /static/assets/js/datatables.min.js HTTP/1.1" 404 1840
+2024-09-24 14:34:32,614:WARNING:: "GET /static/img/team/3-thumb.png HTTP/1.1" 404 1819
+2024-09-24 14:34:32,614:WARNING:: "GET /static/img/team/3-thumb.png HTTP/1.1" 404 1819
+2024-09-24 14:34:33,576:WARNING:: "GET /static/assets/img/logo.png HTTP/1.1" 404 1816
+2024-09-24 14:34:33,576:WARNING:: "GET /static/assets/img/logo.png HTTP/1.1" 404 1816
+2024-09-24 14:34:33,577:WARNING:: "GET /static/vue/css/app.css?v= HTTP/1.1" 404 1807
+2024-09-24 14:34:33,577:WARNING:: "GET /static/vue/css/app.css?v= HTTP/1.1" 404 1807
+2024-09-24 14:34:33,689:WARNING:: "GET /static/assets/js/datatables.min.js HTTP/1.1" 404 1840
+2024-09-24 14:34:33,690:WARNING:: "GET /static/img/team/3-thumb.png HTTP/1.1" 404 1819
+2024-09-24 14:34:33,689:WARNING:: "GET /static/assets/js/datatables.min.js HTTP/1.1" 404 1840
+2024-09-24 14:34:33,690:WARNING:: "GET /static/img/team/3-thumb.png HTTP/1.1" 404 1819
+2024-09-24 14:34:33,697:WARNING:: "GET /static/assets/js/datatables.js HTTP/1.1" 404 1828
+2024-09-24 14:34:33,697:WARNING:: "GET /static/assets/js/datatables.js HTTP/1.1" 404 1828
+2024-09-24 14:34:33,703:WARNING:: Not Found: /admin/assets/img/icons/weather-icon.png
+2024-09-24 14:34:33,703:WARNING:: Not Found: /admin/assets/img/icons/weather-icon.png
+2024-09-24 14:34:33,705:WARNING:: "GET /admin/assets/img/icons/weather-icon.png HTTP/1.1" 404 4551
+2024-09-24 14:34:33,705:WARNING:: "GET /admin/assets/img/icons/weather-icon.png HTTP/1.1" 404 4551
+2024-09-24 14:34:33,778:WARNING:: Not Found: /admin/assets/img/icons/weather-icon.png
+2024-09-24 14:34:33,778:WARNING:: Not Found: /admin/assets/img/icons/weather-icon.png
+2024-09-24 14:34:33,780:WARNING:: "GET /admin/assets/img/icons/weather-icon.png HTTP/1.1" 404 4551
+2024-09-24 14:34:33,780:WARNING:: "GET /admin/assets/img/icons/weather-icon.png HTTP/1.1" 404 4551
+2024-09-24 14:34:34,463:WARNING:: "GET /static/vue/css/app.css?v= HTTP/1.1" 404 1807
+2024-09-24 14:34:34,463:WARNING:: "GET /static/vue/css/app.css?v= HTTP/1.1" 404 1807
+2024-09-24 14:34:34,465:WARNING:: "GET /static/assets/img/logo.png HTTP/1.1" 404 1816
+2024-09-24 14:34:34,465:WARNING:: "GET /static/assets/img/logo.png HTTP/1.1" 404 1816
+2024-09-24 14:34:34,488:WARNING:: "GET /static/assets/js/datatables.min.js HTTP/1.1" 404 1840
+2024-09-24 14:34:34,488:WARNING:: "GET /static/assets/js/datatables.js HTTP/1.1" 404 1828
+2024-09-24 14:34:34,488:WARNING:: "GET /static/assets/js/datatables.min.js HTTP/1.1" 404 1840
+2024-09-24 14:34:34,488:WARNING:: "GET /static/assets/js/datatables.js HTTP/1.1" 404 1828
+2024-09-24 14:34:34,498:WARNING:: "GET /static/img/team/3-thumb.png HTTP/1.1" 404 1819
+2024-09-24 14:34:34,498:WARNING:: "GET /static/img/team/3-thumb.png HTTP/1.1" 404 1819
+2024-09-24 14:36:09,921:WARNING:: "GET /static/vue/css/app.css?v= HTTP/1.1" 404 1807
+2024-09-24 14:36:09,921:WARNING:: "GET /static/vue/css/app.css?v= HTTP/1.1" 404 1807
+2024-09-24 14:36:09,934:WARNING:: "GET /static/assets/img/logo.png HTTP/1.1" 404 1816
+2024-09-24 14:36:09,934:WARNING:: "GET /static/assets/img/logo.png HTTP/1.1" 404 1816
+2024-09-24 14:36:10,082:WARNING:: "GET /static/assets/js/datatables.js HTTP/1.1" 404 1828
+2024-09-24 14:36:10,099:WARNING:: "GET /static/assets/js/datatables.min.js HTTP/1.1" 404 1840
+2024-09-24 14:36:10,082:WARNING:: "GET /static/assets/js/datatables.js HTTP/1.1" 404 1828
+2024-09-24 14:36:10,099:WARNING:: "GET /static/assets/js/datatables.min.js HTTP/1.1" 404 1840
+2024-09-24 14:36:10,276:WARNING:: "GET /static/img/team/3-thumb.png HTTP/1.1" 404 1819
+2024-09-24 14:36:10,276:WARNING:: "GET /static/img/team/3-thumb.png HTTP/1.1" 404 1819
+2024-09-24 14:36:26,370:WARNING:: "GET /static/vue/css/app.css?v= HTTP/1.1" 404 1807
+2024-09-24 14:36:26,370:WARNING:: "GET /static/vue/css/app.css?v= HTTP/1.1" 404 1807
+2024-09-24 14:36:26,374:WARNING:: "GET /static/assets/img/logo.png HTTP/1.1" 404 1816
+2024-09-24 14:36:26,374:WARNING:: "GET /static/assets/img/logo.png HTTP/1.1" 404 1816
+2024-09-24 14:36:26,694:WARNING:: "GET /static/assets/js/datatables.js HTTP/1.1" 404 1828
+2024-09-24 14:36:26,694:WARNING:: "GET /static/assets/js/datatables.js HTTP/1.1" 404 1828
+2024-09-24 14:36:26,705:WARNING:: "GET /static/assets/js/datatables.min.js HTTP/1.1" 404 1840
+2024-09-24 14:36:26,705:WARNING:: "GET /static/assets/js/datatables.min.js HTTP/1.1" 404 1840
+2024-09-24 14:36:26,841:WARNING:: "GET /static/img/team/3-thumb.png HTTP/1.1" 404 1819
+2024-09-24 14:36:26,841:WARNING:: "GET /static/img/team/3-thumb.png HTTP/1.1" 404 1819
+2024-09-24 14:36:35,180:WARNING:: "GET /static/vue/css/app.css?v= HTTP/1.1" 404 1807
+2024-09-24 14:36:35,180:WARNING:: "GET /static/vue/css/app.css?v= HTTP/1.1" 404 1807
+2024-09-24 14:36:35,186:WARNING:: "GET /static/assets/img/logo.png HTTP/1.1" 404 1816
+2024-09-24 14:36:35,186:WARNING:: "GET /static/assets/img/logo.png HTTP/1.1" 404 1816
+2024-09-24 14:36:35,480:WARNING:: "GET /static/assets/js/datatables.min.js HTTP/1.1" 404 1840
+2024-09-24 14:36:35,480:WARNING:: "GET /static/assets/js/datatables.min.js HTTP/1.1" 404 1840
+2024-09-24 14:36:35,481:WARNING:: "GET /static/assets/js/datatables.js HTTP/1.1" 404 1828
+2024-09-24 14:36:35,481:WARNING:: "GET /static/assets/js/datatables.js HTTP/1.1" 404 1828
+2024-09-24 14:36:35,606:WARNING:: "GET /static/img/team/3-thumb.png HTTP/1.1" 404 1819
+2024-09-24 14:36:35,606:WARNING:: "GET /static/img/team/3-thumb.png HTTP/1.1" 404 1819
+2024-09-24 14:36:44,437:WARNING:: "GET /static/vue/css/app.css?v= HTTP/1.1" 404 1807
+2024-09-24 14:36:44,437:WARNING:: "GET /static/vue/css/app.css?v= HTTP/1.1" 404 1807
+2024-09-24 14:36:44,440:WARNING:: "GET /static/assets/img/logo.png HTTP/1.1" 404 1816
+2024-09-24 14:36:44,440:WARNING:: "GET /static/assets/img/logo.png HTTP/1.1" 404 1816
+2024-09-24 14:36:44,726:WARNING:: "GET /static/assets/js/datatables.js HTTP/1.1" 404 1828
+2024-09-24 14:36:44,726:WARNING:: "GET /static/assets/js/datatables.js HTTP/1.1" 404 1828
+2024-09-24 14:36:44,736:WARNING:: "GET /static/assets/js/datatables.min.js HTTP/1.1" 404 1840
+2024-09-24 14:36:44,736:WARNING:: "GET /static/assets/js/datatables.min.js HTTP/1.1" 404 1840
+2024-09-24 14:36:45,379:WARNING:: "GET /static/img/team/3-thumb.png HTTP/1.1" 404 1819
+2024-09-24 14:36:45,379:WARNING:: "GET /static/img/team/3-thumb.png HTTP/1.1" 404 1819
+2024-09-24 14:41:58,829:WARNING:: Not Found: /contents/admin/assets/css/salary-bootstrap.min.css
+2024-09-24 14:41:58,830:WARNING:: Not Found: /contents/admin/assets/css/all.min.css
+2024-09-24 14:41:58,829:WARNING:: Not Found: /contents/admin/assets/css/salary-bootstrap.min.css
+2024-09-24 14:41:58,830:WARNING:: Not Found: /contents/admin/assets/css/all.min.css
+2024-09-24 14:41:58,837:WARNING:: "GET /contents/admin/assets/css/salary-bootstrap.min.css HTTP/1.1" 404 2979
+2024-09-24 14:41:58,837:WARNING:: "GET /contents/admin/assets/css/salary-bootstrap.min.css HTTP/1.1" 404 2979
+2024-09-24 14:41:58,841:WARNING:: "GET /contents/admin/assets/css/all.min.css HTTP/1.1" 404 2940
+2024-09-24 14:41:58,841:WARNING:: "GET /contents/admin/assets/css/all.min.css HTTP/1.1" 404 2940
+2024-09-24 14:41:58,847:WARNING:: Not Found: /contents/admin/assets/css/moltran.css
+2024-09-24 14:41:58,849:WARNING:: Not Found: /contents/admin/assets/css/icons.css
+2024-09-24 14:41:58,847:WARNING:: Not Found: /contents/admin/assets/css/moltran.css
+2024-09-24 14:41:58,850:WARNING:: Not Found: /contents/admin/assets/js/font_end_validation/employee-info.js
+2024-09-24 14:41:58,849:WARNING:: Not Found: /contents/admin/assets/css/icons.css
+2024-09-24 14:41:58,851:WARNING:: "GET /contents/admin/assets/css/moltran.css HTTP/1.1" 404 2940
+2024-09-24 14:41:58,853:WARNING:: Not Found: /contents/admin/assets/css/datatables.min.css
+2024-09-24 14:41:58,850:WARNING:: Not Found: /contents/admin/assets/js/font_end_validation/employee-info.js
+2024-09-24 14:41:58,853:WARNING:: "GET /contents/admin/assets/css/icons.css HTTP/1.1" 404 2934
+2024-09-24 14:41:58,851:WARNING:: "GET /contents/admin/assets/css/moltran.css HTTP/1.1" 404 2940
+2024-09-24 14:41:58,853:WARNING:: Not Found: /contents/admin/assets/css/datatables.min.css
+2024-09-24 14:41:58,854:WARNING:: "GET /contents/admin/assets/js/font_end_validation/employee-info.js HTTP/1.1" 404 3012
+2024-09-24 14:41:58,854:WARNING:: "GET /contents/admin/assets/js/font_end_validation/employee-info.js HTTP/1.1" 404 3012
+2024-09-24 14:41:58,853:WARNING:: "GET /contents/admin/assets/css/icons.css HTTP/1.1" 404 2934
+2024-09-24 14:41:58,855:WARNING:: "GET /contents/admin/assets/css/datatables.min.css HTTP/1.1" 404 2961
+2024-09-24 14:41:58,855:WARNING:: "GET /contents/admin/assets/css/datatables.min.css HTTP/1.1" 404 2961
+2024-09-24 14:41:58,905:WARNING:: Not Found: /contents/common/css/magnific-popup.css
+2024-09-24 14:41:58,905:WARNING:: Not Found: /contents/common/css/magnific-popup.css
+2024-09-24 14:41:58,910:WARNING:: Not Found: /contents/admin/assets/css/chosen.css
+2024-09-24 14:41:58,912:WARNING:: "GET /contents/common/css/magnific-popup.css HTTP/1.1" 404 2943
+2024-09-24 14:41:58,913:WARNING:: Not Found: /contents/admin/plugins/summernote/summernote-bs4.css
+2024-09-24 14:41:58,915:WARNING:: Not Found: /contents/admin/assets/css/style.css
+2024-09-24 14:41:58,910:WARNING:: Not Found: /contents/admin/assets/css/chosen.css
+2024-09-24 14:41:58,917:WARNING:: Not Found: /contents/admin/assets/js/modernizr.min.js
+2024-09-24 14:41:58,912:WARNING:: "GET /contents/common/css/magnific-popup.css HTTP/1.1" 404 2943
+2024-09-24 14:41:58,913:WARNING:: Not Found: /contents/admin/plugins/summernote/summernote-bs4.css
+2024-09-24 14:41:58,918:WARNING:: Not Found: /contents/admin/assets/css/bootstrap-datepicker.min.css
+2024-09-24 14:41:58,915:WARNING:: Not Found: /contents/admin/assets/css/style.css
+2024-09-24 14:41:58,917:WARNING:: Not Found: /contents/admin/assets/js/modernizr.min.js
+2024-09-24 14:41:58,919:WARNING:: "GET /contents/admin/assets/css/chosen.css HTTP/1.1" 404 2937
+2024-09-24 14:41:58,920:WARNING:: "GET /contents/admin/plugins/summernote/summernote-bs4.css HTTP/1.1" 404 2985
+2024-09-24 14:41:58,918:WARNING:: Not Found: /contents/admin/assets/css/bootstrap-datepicker.min.css
+2024-09-24 14:41:58,923:WARNING:: "GET /contents/admin/assets/css/style.css HTTP/1.1" 404 2934
+2024-09-24 14:41:58,919:WARNING:: "GET /contents/admin/assets/css/chosen.css HTTP/1.1" 404 2937
+2024-09-24 14:41:58,927:WARNING:: "GET /contents/admin/assets/js/modernizr.min.js HTTP/1.1" 404 2952
+2024-09-24 14:41:58,920:WARNING:: "GET /contents/admin/plugins/summernote/summernote-bs4.css HTTP/1.1" 404 2985
+2024-09-24 14:41:58,923:WARNING:: "GET /contents/admin/assets/css/style.css HTTP/1.1" 404 2934
+2024-09-24 14:41:58,930:WARNING:: Not Found: /contents/admin/assets/js/font_end_validation/division.js
+2024-09-24 14:41:58,930:WARNING:: "GET /contents/admin/assets/css/bootstrap-datepicker.min.css HTTP/1.1" 404 2991
+2024-09-24 14:41:58,927:WARNING:: "GET /contents/admin/assets/js/modernizr.min.js HTTP/1.1" 404 2952
+2024-09-24 14:41:58,930:WARNING:: Not Found: /contents/admin/assets/js/font_end_validation/division.js
+2024-09-24 14:41:58,930:WARNING:: "GET /contents/admin/assets/css/bootstrap-datepicker.min.css HTTP/1.1" 404 2991
+2024-09-24 14:41:58,969:WARNING:: "GET /contents/admin/assets/js/font_end_validation/division.js HTTP/1.1" 404 2997
+2024-09-24 14:41:58,969:WARNING:: "GET /contents/admin/assets/js/font_end_validation/division.js HTTP/1.1" 404 2997
+2024-09-24 14:41:58,985:WARNING:: Not Found: /contents/admin/assets/js/font_end_validation/salary-details.js
+2024-09-24 14:41:58,985:WARNING:: Not Found: /contents/admin/assets/js/font_end_validation/salary-details.js
+2024-09-24 14:41:58,990:WARNING:: Not Found: /contents/admin/assets/js/jquery.min.js
+2024-09-24 14:41:58,990:WARNING:: "GET /contents/admin/assets/js/font_end_validation/salary-details.js HTTP/1.1" 404 3015
+2024-09-24 14:41:58,990:WARNING:: Not Found: /contents/admin/assets/js/jquery.min.js
+2024-09-24 14:41:58,990:WARNING:: "GET /contents/admin/assets/js/font_end_validation/salary-details.js HTTP/1.1" 404 3015
+2024-09-24 14:41:58,993:WARNING:: Not Found: /contents/admin/assets/js/font_end_validation/jquery.validate.min.js
+2024-09-24 14:41:58,994:WARNING:: Not Found: /contents/admin/assets/js/bootstrap.bundle.min.js
+2024-09-24 14:41:58,994:WARNING:: "GET /contents/admin/assets/js/jquery.min.js HTTP/1.1" 404 2943
+2024-09-24 14:41:58,997:WARNING:: Not Found: /uploads/employee/profile/Emp-1711508085.jpeg
+2024-09-24 14:41:58,993:WARNING:: Not Found: /contents/admin/assets/js/font_end_validation/jquery.validate.min.js
+2024-09-24 14:41:58,994:WARNING:: Not Found: /contents/admin/assets/js/bootstrap.bundle.min.js
+2024-09-24 14:41:58,994:WARNING:: "GET /contents/admin/assets/js/jquery.min.js HTTP/1.1" 404 2943
+2024-09-24 14:41:58,997:WARNING:: Not Found: /uploads/employee/profile/Emp-1711508085.jpeg
+2024-09-24 14:41:59,001:WARNING:: "GET /contents/admin/assets/js/font_end_validation/jquery.validate.min.js HTTP/1.1" 404 3030
+2024-09-24 14:41:59,001:WARNING:: "GET /contents/admin/assets/js/bootstrap.bundle.min.js HTTP/1.1" 404 2973
+2024-09-24 14:41:59,001:WARNING:: "GET /contents/admin/assets/js/font_end_validation/jquery.validate.min.js HTTP/1.1" 404 3030
+2024-09-24 14:41:59,002:WARNING:: "GET /uploads/employee/profile/Emp-1711508085.jpeg HTTP/1.1" 404 2961
+2024-09-24 14:41:59,001:WARNING:: "GET /contents/admin/assets/js/bootstrap.bundle.min.js HTTP/1.1" 404 2973
+2024-09-24 14:41:59,002:WARNING:: "GET /uploads/employee/profile/Emp-1711508085.jpeg HTTP/1.1" 404 2961
+2024-09-24 14:41:59,027:WARNING:: Not Found: /contents/admin/assets/js/datatables.min.js
+2024-09-24 14:41:59,027:WARNING:: Not Found: /contents/admin/assets/js/datatables.min.js
+2024-09-24 14:41:59,033:WARNING:: "GET /contents/admin/assets/js/datatables.min.js HTTP/1.1" 404 2955
+2024-09-24 14:41:59,033:WARNING:: "GET /contents/admin/assets/js/datatables.min.js HTTP/1.1" 404 2955
+2024-09-24 14:41:59,036:WARNING:: Not Found: /contents/admin/assets/js/detect.js
+2024-09-24 14:41:59,036:WARNING:: Not Found: /contents/admin/assets/js/detect.js
+2024-09-24 14:41:59,037:WARNING:: "GET /contents/admin/assets/js/detect.js HTTP/1.1" 404 2931
+2024-09-24 14:41:59,037:WARNING:: "GET /contents/admin/assets/js/detect.js HTTP/1.1" 404 2931
+2024-09-24 14:41:59,051:WARNING:: Not Found: /contents/admin/assets/js/fastclick.js
+2024-09-24 14:41:59,051:WARNING:: Not Found: /contents/admin/assets/js/fastclick.js
+2024-09-24 14:41:59,052:WARNING:: "GET /contents/admin/assets/js/fastclick.js HTTP/1.1" 404 2940
+2024-09-24 14:41:59,052:WARNING:: "GET /contents/admin/assets/js/fastclick.js HTTP/1.1" 404 2940
+2024-09-24 14:41:59,087:WARNING:: Not Found: /contents/admin/assets/js/jquery-validator.min.js
+2024-09-24 14:41:59,088:WARNING:: Not Found: /contents/admin/assets/js/wow.min.js
+2024-09-24 14:41:59,087:WARNING:: Not Found: /contents/admin/assets/js/jquery-validator.min.js
+2024-09-24 14:41:59,090:WARNING:: Not Found: /contents/admin/assets/js/jquery.blockUI.js
+2024-09-24 14:41:59,088:WARNING:: Not Found: /contents/admin/assets/js/wow.min.js
+2024-09-24 14:41:59,091:WARNING:: "GET /contents/admin/assets/js/jquery-validator.min.js HTTP/1.1" 404 2973
+2024-09-24 14:41:59,090:WARNING:: Not Found: /contents/admin/assets/js/jquery.blockUI.js
+2024-09-24 14:41:59,097:WARNING:: "GET /contents/admin/assets/js/wow.min.js HTTP/1.1" 404 2934
+2024-09-24 14:41:59,091:WARNING:: "GET /contents/admin/assets/js/jquery-validator.min.js HTTP/1.1" 404 2973
+2024-09-24 14:41:59,097:WARNING:: "GET /contents/admin/assets/js/wow.min.js HTTP/1.1" 404 2934
+2024-09-24 14:41:59,097:WARNING:: "GET /contents/admin/assets/js/jquery.blockUI.js HTTP/1.1" 404 2955
+2024-09-24 14:41:59,100:WARNING:: Not Found: /contents/admin/assets/js/jquery.slimscroll.js
+2024-09-24 14:41:59,097:WARNING:: "GET /contents/admin/assets/js/jquery.blockUI.js HTTP/1.1" 404 2955
+2024-09-24 14:41:59,100:WARNING:: Not Found: /contents/admin/assets/js/jquery.slimscroll.js
+2024-09-24 14:41:59,102:WARNING:: Not Found: /contents/admin/assets/js/form-validation.js
+2024-09-24 14:41:59,102:WARNING:: Not Found: /contents/admin/assets/js/form-validation.js
+2024-09-24 14:41:59,104:WARNING:: "GET /contents/admin/assets/js/jquery.slimscroll.js HTTP/1.1" 404 2964
+2024-09-24 14:41:59,106:WARNING:: Not Found: /contents/admin/assets/js/waves.js
+2024-09-24 14:41:59,104:WARNING:: "GET /contents/admin/assets/js/jquery.slimscroll.js HTTP/1.1" 404 2964
+2024-09-24 14:41:59,106:WARNING:: "GET /contents/admin/assets/js/form-validation.js HTTP/1.1" 404 2958
+2024-09-24 14:41:59,106:WARNING:: Not Found: /contents/admin/assets/js/waves.js
+2024-09-24 14:41:59,106:WARNING:: "GET /contents/admin/assets/js/form-validation.js HTTP/1.1" 404 2958
+2024-09-24 14:41:59,108:WARNING:: "GET /contents/admin/assets/js/waves.js HTTP/1.1" 404 2928
+2024-09-24 14:41:59,108:WARNING:: "GET /contents/admin/assets/js/waves.js HTTP/1.1" 404 2928
+2024-09-24 14:41:59,185:WARNING:: Not Found: /contents/admin/assets/js/jquery.nicescroll.js
+2024-09-24 14:41:59,188:WARNING:: Not Found: /contents/admin/assets/js/jquery.scrollTo.min.js
+2024-09-24 14:41:59,185:WARNING:: Not Found: /contents/admin/assets/js/jquery.nicescroll.js
+2024-09-24 14:41:59,188:WARNING:: Not Found: /contents/admin/assets/js/jquery.scrollTo.min.js
+2024-09-24 14:41:59,190:WARNING:: "GET /contents/admin/assets/js/jquery.scrollTo.min.js HTTP/1.1" 404 2970
+2024-09-24 14:41:59,190:WARNING:: "GET /contents/admin/assets/js/jquery.nicescroll.js HTTP/1.1" 404 2964
+2024-09-24 14:41:59,192:WARNING:: Not Found: /contents/common/js/sweetalert2.min.js
+2024-09-24 14:41:59,194:WARNING:: Not Found: /contents/admin/assets/js/sweetalert/code.js
+2024-09-24 14:41:59,195:WARNING:: Not Found: /contents/admin/assets/js/bootstrap-datepicker.js
+2024-09-24 14:41:59,190:WARNING:: "GET /contents/admin/assets/js/jquery.scrollTo.min.js HTTP/1.1" 404 2970
+2024-09-24 14:41:59,196:WARNING:: Not Found: /contents/admin/assets/js/sweetalert/sweetalert.min.js
+2024-09-24 14:41:59,190:WARNING:: "GET /contents/admin/assets/js/jquery.nicescroll.js HTTP/1.1" 404 2964
+2024-09-24 14:41:59,192:WARNING:: Not Found: /contents/common/js/sweetalert2.min.js
+2024-09-24 14:41:59,194:WARNING:: Not Found: /contents/admin/assets/js/sweetalert/code.js
+2024-09-24 14:41:59,195:WARNING:: Not Found: /contents/admin/assets/js/bootstrap-datepicker.js
+2024-09-24 14:41:59,196:WARNING:: Not Found: /contents/admin/assets/js/sweetalert/sweetalert.min.js
+2024-09-24 14:41:59,198:WARNING:: "GET /contents/common/js/sweetalert2.min.js HTTP/1.1" 404 2940
+2024-09-24 14:41:59,198:WARNING:: "GET /contents/admin/assets/js/sweetalert/code.js HTTP/1.1" 404 2958
+2024-09-24 14:41:59,199:WARNING:: "GET /contents/admin/assets/js/bootstrap-datepicker.js HTTP/1.1" 404 2973
+2024-09-24 14:41:59,198:WARNING:: "GET /contents/common/js/sweetalert2.min.js HTTP/1.1" 404 2940
+2024-09-24 14:41:59,199:WARNING:: "GET /contents/admin/assets/js/sweetalert/sweetalert.min.js HTTP/1.1" 404 2988
+2024-09-24 14:41:59,198:WARNING:: "GET /contents/admin/assets/js/sweetalert/code.js HTTP/1.1" 404 2958
+2024-09-24 14:41:59,199:WARNING:: "GET /contents/admin/assets/js/bootstrap-datepicker.js HTTP/1.1" 404 2973
+2024-09-24 14:41:59,199:WARNING:: "GET /contents/admin/assets/js/sweetalert/sweetalert.min.js HTTP/1.1" 404 2988
+2024-09-24 14:41:59,277:WARNING:: Not Found: /contents/admin/plugins/moment/moment.min.js
+2024-09-24 14:41:59,279:WARNING:: Not Found: /contents/admin/plugins/waypoints/lib/jquery.waypoints.js
+2024-09-24 14:41:59,280:WARNING:: Not Found: /contents/common/js/magnific.min.js
+2024-09-24 14:41:59,277:WARNING:: Not Found: /contents/admin/plugins/moment/moment.min.js
+2024-09-24 14:41:59,281:WARNING:: Not Found: /contents/admin/assets/js/jquery.app.js
+2024-09-24 14:41:59,282:WARNING:: Not Found: /contents/admin/plugins/summernote/summernote-bs4.js
+2024-09-24 14:41:59,279:WARNING:: Not Found: /contents/admin/plugins/waypoints/lib/jquery.waypoints.js
+2024-09-24 14:41:59,280:WARNING:: Not Found: /contents/common/js/magnific.min.js
+2024-09-24 14:41:59,281:WARNING:: Not Found: /contents/admin/assets/js/jquery.app.js
+2024-09-24 14:41:59,283:WARNING:: "GET /contents/admin/plugins/moment/moment.min.js HTTP/1.1" 404 2958
+2024-09-24 14:41:59,282:WARNING:: Not Found: /contents/admin/plugins/summernote/summernote-bs4.js
+2024-09-24 14:41:59,284:WARNING:: "GET /contents/admin/plugins/waypoints/lib/jquery.waypoints.js HTTP/1.1" 404 2997
+2024-09-24 14:41:59,284:WARNING:: "GET /contents/common/js/magnific.min.js HTTP/1.1" 404 2931
+2024-09-24 14:41:59,283:WARNING:: "GET /contents/admin/plugins/moment/moment.min.js HTTP/1.1" 404 2958
+2024-09-24 14:41:59,284:WARNING:: "GET /contents/admin/assets/js/jquery.app.js HTTP/1.1" 404 2943
+2024-09-24 14:41:59,284:WARNING:: "GET /contents/admin/plugins/waypoints/lib/jquery.waypoints.js HTTP/1.1" 404 2997
+2024-09-24 14:41:59,285:WARNING:: "GET /contents/admin/plugins/summernote/summernote-bs4.js HTTP/1.1" 404 2982
+2024-09-24 14:41:59,284:WARNING:: "GET /contents/common/js/magnific.min.js HTTP/1.1" 404 2931
+2024-09-24 14:41:59,284:WARNING:: "GET /contents/admin/assets/js/jquery.app.js HTTP/1.1" 404 2943
+2024-09-24 14:41:59,287:WARNING:: Not Found: /contents/admin/plugins/counterup/jquery.counterup.min.js
+2024-09-24 14:41:59,285:WARNING:: "GET /contents/admin/plugins/summernote/summernote-bs4.js HTTP/1.1" 404 2982
+2024-09-24 14:41:59,287:WARNING:: Not Found: /contents/admin/plugins/counterup/jquery.counterup.min.js
+2024-09-24 14:41:59,288:WARNING:: "GET /contents/admin/plugins/counterup/jquery.counterup.min.js HTTP/1.1" 404 2997
+2024-09-24 14:41:59,288:WARNING:: "GET /contents/admin/plugins/counterup/jquery.counterup.min.js HTTP/1.1" 404 2997
+2024-09-24 14:41:59,369:WARNING:: Not Found: /contents/admin/assets/js/ajax/typehead.min.js
+2024-09-24 14:41:59,371:WARNING:: Not Found: /contents/admin/assets/js/custom.js
+2024-09-24 14:41:59,372:WARNING:: Not Found: /contents/admin/assets/js/axios.min.js
+2024-09-24 14:41:59,372:WARNING:: Not Found: /contents/admin/assets/js/axios.min.js
+2024-09-24 14:41:59,373:WARNING:: Not Found: /contents/admin/assets/js/accounts/chart_of_accounts.js
+2024-09-24 14:41:59,371:WARNING:: Not Found: /contents/admin/assets/js/custom.js
+2024-09-24 14:41:59,375:WARNING:: Not Found: /contents/admin/assets/js/accounts/journal_info.js
+2024-09-24 14:41:59,369:WARNING:: Not Found: /contents/admin/assets/js/ajax/typehead.min.js
+2024-09-24 14:41:59,376:WARNING:: Not Found: /contents/admin/assets/js/jquery.printPage.js
+2024-09-24 14:41:59,377:WARNING:: "GET /contents/admin/assets/js/axios.min.js HTTP/1.1" 404 2940
+2024-09-24 14:41:59,373:WARNING:: Not Found: /contents/admin/assets/js/accounts/chart_of_accounts.js
+2024-09-24 14:41:59,375:WARNING:: Not Found: /contents/admin/assets/js/accounts/journal_info.js
+2024-09-24 14:41:59,378:WARNING:: "GET /contents/admin/assets/js/custom.js HTTP/1.1" 404 2931
+2024-09-24 14:41:59,376:WARNING:: Not Found: /contents/admin/assets/js/jquery.printPage.js
+2024-09-24 14:41:59,379:WARNING:: "GET /contents/admin/assets/js/ajax/typehead.min.js HTTP/1.1" 404 2964
+2024-09-24 14:41:59,377:WARNING:: "GET /contents/admin/assets/js/axios.min.js HTTP/1.1" 404 2940
+2024-09-24 14:41:59,380:WARNING:: "GET /contents/admin/assets/js/accounts/chart_of_accounts.js HTTP/1.1" 404 2991
+2024-09-24 14:41:59,378:WARNING:: "GET /contents/admin/assets/js/custom.js HTTP/1.1" 404 2931
+2024-09-24 14:41:59,380:WARNING:: "GET /contents/admin/assets/js/accounts/journal_info.js HTTP/1.1" 404 2976
+2024-09-24 14:41:59,379:WARNING:: "GET /contents/admin/assets/js/ajax/typehead.min.js HTTP/1.1" 404 2964
+2024-09-24 14:41:59,380:WARNING:: "GET /contents/admin/assets/js/jquery.printPage.js HTTP/1.1" 404 2961
+2024-09-24 14:41:59,380:WARNING:: "GET /contents/admin/assets/js/accounts/chart_of_accounts.js HTTP/1.1" 404 2991
+2024-09-24 14:41:59,380:WARNING:: "GET /contents/admin/assets/js/accounts/journal_info.js HTTP/1.1" 404 2976
+2024-09-24 14:41:59,380:WARNING:: "GET /contents/admin/assets/js/jquery.printPage.js HTTP/1.1" 404 2961
+2024-09-24 14:41:59,421:WARNING:: Not Found: /contents/admin/assets/js/employee_information/status.js
+2024-09-24 14:41:59,422:WARNING:: Not Found: /contents/admin/assets/js/accounts/purchase.js
+2024-09-24 14:41:59,424:WARNING:: Not Found: /contents/admin/assets/js/salary/salary_process.js
+2024-09-24 14:41:59,425:WARNING:: Not Found: /contents/admin/assets/js/transportation/driver_ajax.js
+2024-09-24 14:41:59,421:WARNING:: Not Found: /contents/admin/assets/js/employee_information/status.js
+2024-09-24 14:41:59,422:WARNING:: Not Found: /contents/admin/assets/js/accounts/purchase.js
+2024-09-24 14:41:59,424:WARNING:: Not Found: /contents/admin/assets/js/salary/salary_process.js
+2024-09-24 14:41:59,428:WARNING:: Not Found: /admin/metarial-tools/list/view
+2024-09-24 14:41:59,425:WARNING:: Not Found: /contents/admin/assets/js/transportation/driver_ajax.js
+2024-09-24 14:41:59,429:WARNING:: "GET /contents/admin/assets/js/employee_information/status.js HTTP/1.1" 404 2994
+2024-09-24 14:41:59,429:WARNING:: "GET /contents/admin/assets/js/accounts/purchase.js HTTP/1.1" 404 2964
+2024-09-24 14:41:59,428:WARNING:: Not Found: /admin/metarial-tools/list/view
+2024-09-24 14:41:59,429:WARNING:: "GET /contents/admin/assets/js/salary/salary_process.js HTTP/1.1" 404 2976
+2024-09-24 14:41:59,429:WARNING:: "GET /contents/admin/assets/js/employee_information/status.js HTTP/1.1" 404 2994
+2024-09-24 14:41:59,430:WARNING:: "GET /contents/admin/assets/js/transportation/driver_ajax.js HTTP/1.1" 404 2991
+2024-09-24 14:41:59,429:WARNING:: "GET /contents/admin/assets/js/accounts/purchase.js HTTP/1.1" 404 2964
+2024-09-24 14:41:59,429:WARNING:: "GET /contents/admin/assets/js/salary/salary_process.js HTTP/1.1" 404 2976
+2024-09-24 14:41:59,431:WARNING:: "GET /admin/metarial-tools/list/view HTTP/1.1" 404 4524
+2024-09-24 14:41:59,430:WARNING:: "GET /contents/admin/assets/js/transportation/driver_ajax.js HTTP/1.1" 404 2991
+2024-09-24 14:41:59,431:WARNING:: "GET /admin/metarial-tools/list/view HTTP/1.1" 404 4524
+2024-09-24 14:42:01,029:WARNING:: Not Found: /favicon.ico
+2024-09-24 14:42:01,029:WARNING:: Not Found: /favicon.ico
+2024-09-24 14:42:01,031:WARNING:: "GET /favicon.ico HTTP/1.1" 404 2862
+2024-09-24 14:42:01,031:WARNING:: "GET /favicon.ico HTTP/1.1" 404 2862
+2024-09-24 14:42:05,342:WARNING:: "GET /static/vue/css/app.css?v= HTTP/1.1" 404 1807
+2024-09-24 14:42:05,342:WARNING:: "GET /static/vue/css/app.css?v= HTTP/1.1" 404 1807
+2024-09-24 14:42:05,372:WARNING:: "GET /static/assets/img/logo.png HTTP/1.1" 404 1816
+2024-09-24 14:42:05,372:WARNING:: "GET /static/assets/img/logo.png HTTP/1.1" 404 1816
+2024-09-24 14:42:05,557:WARNING:: "GET /static/assets/js/datatables.min.js HTTP/1.1" 404 1840
+2024-09-24 14:42:05,558:WARNING:: "GET /static/assets/js/datatables.js HTTP/1.1" 404 1828
+2024-09-24 14:42:05,557:WARNING:: "GET /static/assets/js/datatables.min.js HTTP/1.1" 404 1840
+2024-09-24 14:42:05,558:WARNING:: "GET /static/assets/js/datatables.js HTTP/1.1" 404 1828
+2024-09-24 14:42:05,647:WARNING:: "GET /static/img/team/3-thumb.png HTTP/1.1" 404 1819
+2024-09-24 14:42:05,647:WARNING:: "GET /static/img/team/3-thumb.png HTTP/1.1" 404 1819
+2024-09-24 14:42:08,461:WARNING:: "GET /static/vue/css/app.css?v= HTTP/1.1" 404 1807
+2024-09-24 14:42:08,461:WARNING:: "GET /static/assets/img/logo.png HTTP/1.1" 404 1816
+2024-09-24 14:42:08,461:WARNING:: "GET /static/vue/css/app.css?v= HTTP/1.1" 404 1807
+2024-09-24 14:42:08,461:WARNING:: "GET /static/assets/img/logo.png HTTP/1.1" 404 1816
+2024-09-24 14:42:08,475:WARNING:: "GET /static/assets/js/datatables.js HTTP/1.1" 404 1828
+2024-09-24 14:42:08,475:WARNING:: "GET /static/assets/js/datatables.js HTTP/1.1" 404 1828
+2024-09-24 14:42:08,493:WARNING:: "GET /static/assets/js/datatables.min.js HTTP/1.1" 404 1840
+2024-09-24 14:42:08,493:WARNING:: "GET /static/assets/js/datatables.min.js HTTP/1.1" 404 1840
+2024-09-24 14:42:08,495:WARNING:: "GET /static/img/team/3-thumb.png HTTP/1.1" 404 1819
+2024-09-24 14:42:08,495:WARNING:: "GET /static/img/team/3-thumb.png HTTP/1.1" 404 1819
+2024-09-24 14:42:10,334:WARNING:: "GET /static/vue/css/app.css?v= HTTP/1.1" 404 1807
+2024-09-24 14:42:10,334:WARNING:: "GET /static/vue/css/app.css?v= HTTP/1.1" 404 1807
+2024-09-24 14:42:10,338:WARNING:: "GET /static/assets/img/logo.png HTTP/1.1" 404 1816
+2024-09-24 14:42:10,338:WARNING:: "GET /static/assets/img/logo.png HTTP/1.1" 404 1816
+2024-09-24 14:42:10,544:WARNING:: "GET /static/assets/js/datatables.js HTTP/1.1" 404 1828
+2024-09-24 14:42:10,546:WARNING:: "GET /static/assets/js/datatables.min.js HTTP/1.1" 404 1840
+2024-09-24 14:42:10,544:WARNING:: "GET /static/assets/js/datatables.js HTTP/1.1" 404 1828
+2024-09-24 14:42:10,546:WARNING:: "GET /static/assets/js/datatables.min.js HTTP/1.1" 404 1840
+2024-09-24 14:42:10,680:WARNING:: "GET /static/img/team/3-thumb.png HTTP/1.1" 404 1819
+2024-09-24 14:42:10,680:WARNING:: "GET /static/img/team/3-thumb.png HTTP/1.1" 404 1819
+2024-09-24 14:42:42,152:WARNING:: "GET /static/vue/css/app.css?v= HTTP/1.1" 404 1807
+2024-09-24 14:42:42,153:WARNING:: "GET /static/assets/img/logo.png HTTP/1.1" 404 1816
+2024-09-24 14:42:42,152:WARNING:: "GET /static/vue/css/app.css?v= HTTP/1.1" 404 1807
+2024-09-24 14:42:42,153:WARNING:: "GET /static/assets/img/logo.png HTTP/1.1" 404 1816
+2024-09-24 14:42:42,509:WARNING:: "GET /static/assets/js/datatables.js HTTP/1.1" 404 1828
+2024-09-24 14:42:42,509:WARNING:: "GET /static/assets/js/datatables.js HTTP/1.1" 404 1828
+2024-09-24 14:42:42,529:WARNING:: "GET /static/assets/js/datatables.min.js HTTP/1.1" 404 1840
+2024-09-24 14:42:42,529:WARNING:: "GET /static/assets/js/datatables.min.js HTTP/1.1" 404 1840
+2024-09-24 14:42:43,101:WARNING:: "GET /static/img/team/3-thumb.png HTTP/1.1" 404 1819
+2024-09-24 14:42:43,101:WARNING:: "GET /static/img/team/3-thumb.png HTTP/1.1" 404 1819
+2024-09-24 15:05:04,093:WARNING:: "GET /static/vue/css/app.css?v= HTTP/1.1" 404 1807
+2024-09-24 15:05:04,093:WARNING:: "GET /static/vue/css/app.css?v= HTTP/1.1" 404 1807
+2024-09-24 15:05:04,096:WARNING:: "GET /static/assets/img/logo.png HTTP/1.1" 404 1816
+2024-09-24 15:05:04,096:WARNING:: "GET /static/assets/img/logo.png HTTP/1.1" 404 1816
+2024-09-24 15:05:04,301:WARNING:: "GET /static/img/team/3-thumb.png HTTP/1.1" 404 1819
+2024-09-24 15:05:04,301:WARNING:: "GET /static/img/team/3-thumb.png HTTP/1.1" 404 1819
+2024-09-24 15:10:29,350:ERROR:: Internal Server Error: /admin/profile/
+Traceback (most recent call last):
+  File "D:\Rakib\MyPortfolio\env\Lib\site-packages\django\urls\base.py", line 71, in reverse
+    extra, resolver = resolver.namespace_dict[ns]
+                      ~~~~~~~~~~~~~~~~~~~~~~~^^^^
+KeyError: 'admins'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "D:\Rakib\MyPortfolio\env\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Rakib\MyPortfolio\env\Lib\site-packages\django\core\handlers\base.py", line 220, in _get_response
+    response = response.render()
+               ^^^^^^^^^^^^^^^^^
+  File "D:\Rakib\MyPortfolio\env\Lib\site-packages\django\template\response.py", line 114, in render
+    self.content = self.rendered_content
+                   ^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Rakib\MyPortfolio\env\Lib\site-packages\django\template\response.py", line 92, in rendered_content
+    return template.render(context, self._request)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Rakib\MyPortfolio\env\Lib\site-packages\django\template\backends\django.py", line 61, in render
+    return self.template.render(context)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Rakib\MyPortfolio\env\Lib\site-packages\django\template\base.py", line 175, in render
+    return self._render(context)
+           ^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Rakib\MyPortfolio\env\Lib\site-packages\django\template\base.py", line 167, in _render
+    return self.nodelist.render(context)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Rakib\MyPortfolio\env\Lib\site-packages\django\template\base.py", line 1005, in render
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+                               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Rakib\MyPortfolio\env\Lib\site-packages\django\template\base.py", line 966, in render_annotated
+    return self.render(context)
+           ^^^^^^^^^^^^^^^^^^^^
+  File "D:\Rakib\MyPortfolio\env\Lib\site-packages\django\template\loader_tags.py", line 157, in render
+    return compiled_parent._render(context)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Rakib\MyPortfolio\env\Lib\site-packages\django\template\base.py", line 167, in _render
+    return self.nodelist.render(context)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Rakib\MyPortfolio\env\Lib\site-packages\django\template\base.py", line 1005, in render
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+                               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Rakib\MyPortfolio\env\Lib\site-packages\django\template\base.py", line 966, in render_annotated
+    return self.render(context)
+           ^^^^^^^^^^^^^^^^^^^^
+  File "D:\Rakib\MyPortfolio\env\Lib\site-packages\django\template\loader_tags.py", line 208, in render
+    return template.render(context)
+           ^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Rakib\MyPortfolio\env\Lib\site-packages\django\template\base.py", line 177, in render
+    return self._render(context)
+           ^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Rakib\MyPortfolio\env\Lib\site-packages\django\template\base.py", line 167, in _render
+    return self.nodelist.render(context)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Rakib\MyPortfolio\env\Lib\site-packages\django\template\base.py", line 1005, in render
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+                               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Rakib\MyPortfolio\env\Lib\site-packages\django\template\base.py", line 966, in render_annotated
+    return self.render(context)
+           ^^^^^^^^^^^^^^^^^^^^
+  File "D:\Rakib\MyPortfolio\env\Lib\site-packages\django\template\defaulttags.py", line 471, in render
+    url = reverse(view_name, args=args, kwargs=kwargs, current_app=current_app)
+          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Rakib\MyPortfolio\env\Lib\site-packages\django\urls\base.py", line 82, in reverse
+    raise NoReverseMatch("%s is not a registered namespace" % key)
+django.urls.exceptions.NoReverseMatch: 'admins' is not a registered namespace
+2024-09-24 15:10:29,350:ERROR:: Internal Server Error: /admin/profile/
+Traceback (most recent call last):
+  File "D:\Rakib\MyPortfolio\env\Lib\site-packages\django\urls\base.py", line 71, in reverse
+    extra, resolver = resolver.namespace_dict[ns]
+                      ~~~~~~~~~~~~~~~~~~~~~~~^^^^
+KeyError: 'admins'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "D:\Rakib\MyPortfolio\env\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Rakib\MyPortfolio\env\Lib\site-packages\django\core\handlers\base.py", line 220, in _get_response
+    response = response.render()
+               ^^^^^^^^^^^^^^^^^
+  File "D:\Rakib\MyPortfolio\env\Lib\site-packages\django\template\response.py", line 114, in render
+    self.content = self.rendered_content
+                   ^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Rakib\MyPortfolio\env\Lib\site-packages\django\template\response.py", line 92, in rendered_content
+    return template.render(context, self._request)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Rakib\MyPortfolio\env\Lib\site-packages\django\template\backends\django.py", line 61, in render
+    return self.template.render(context)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Rakib\MyPortfolio\env\Lib\site-packages\django\template\base.py", line 175, in render
+    return self._render(context)
+           ^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Rakib\MyPortfolio\env\Lib\site-packages\django\template\base.py", line 167, in _render
+    return self.nodelist.render(context)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Rakib\MyPortfolio\env\Lib\site-packages\django\template\base.py", line 1005, in render
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+                               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Rakib\MyPortfolio\env\Lib\site-packages\django\template\base.py", line 966, in render_annotated
+    return self.render(context)
+           ^^^^^^^^^^^^^^^^^^^^
+  File "D:\Rakib\MyPortfolio\env\Lib\site-packages\django\template\loader_tags.py", line 157, in render
+    return compiled_parent._render(context)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Rakib\MyPortfolio\env\Lib\site-packages\django\template\base.py", line 167, in _render
+    return self.nodelist.render(context)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Rakib\MyPortfolio\env\Lib\site-packages\django\template\base.py", line 1005, in render
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+                               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Rakib\MyPortfolio\env\Lib\site-packages\django\template\base.py", line 966, in render_annotated
+    return self.render(context)
+           ^^^^^^^^^^^^^^^^^^^^
+  File "D:\Rakib\MyPortfolio\env\Lib\site-packages\django\template\loader_tags.py", line 208, in render
+    return template.render(context)
+           ^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Rakib\MyPortfolio\env\Lib\site-packages\django\template\base.py", line 177, in render
+    return self._render(context)
+           ^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Rakib\MyPortfolio\env\Lib\site-packages\django\template\base.py", line 167, in _render
+    return self.nodelist.render(context)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Rakib\MyPortfolio\env\Lib\site-packages\django\template\base.py", line 1005, in render
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+                               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Rakib\MyPortfolio\env\Lib\site-packages\django\template\base.py", line 966, in render_annotated
+    return self.render(context)
+           ^^^^^^^^^^^^^^^^^^^^
+  File "D:\Rakib\MyPortfolio\env\Lib\site-packages\django\template\defaulttags.py", line 471, in render
+    url = reverse(view_name, args=args, kwargs=kwargs, current_app=current_app)
+          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Rakib\MyPortfolio\env\Lib\site-packages\django\urls\base.py", line 82, in reverse
+    raise NoReverseMatch("%s is not a registered namespace" % key)
+django.urls.exceptions.NoReverseMatch: 'admins' is not a registered namespace
+2024-09-24 15:10:29,406:ERROR:: "GET /admin/profile/ HTTP/1.1" 500 174137
+2024-09-24 15:10:29,406:ERROR:: "GET /admin/profile/ HTTP/1.1" 500 174137
+2024-09-24 15:10:29,737:WARNING:: Not Found: /favicon.ico
+2024-09-24 15:10:29,737:WARNING:: Not Found: /favicon.ico
+2024-09-24 15:10:29,738:WARNING:: "GET /favicon.ico HTTP/1.1" 404 2862
+2024-09-24 15:10:29,738:WARNING:: "GET /favicon.ico HTTP/1.1" 404 2862
+2024-09-24 15:11:14,563:INFO:: D:\Rakib\MyPortfolio\config\.env doesn't exist - if you're not configuring your environment separately, create one.
+2024-09-24 15:11:14,564:DEBUG:: get 'DJANGO_SETTINGS' casted as 'None' with default 'local'
+2024-09-24 15:11:17,425:INFO:: D:\Rakib\MyPortfolio\config\.env doesn't exist - if you're not configuring your environment separately, create one.
+2024-09-24 15:11:17,426:DEBUG:: get 'DJANGO_SETTINGS' casted as 'None' with default 'local'
+2024-09-24 15:11:26,894:INFO:: D:\Rakib\MyPortfolio\config\.env doesn't exist - if you're not configuring your environment separately, create one.
+2024-09-24 15:11:26,895:DEBUG:: get 'DJANGO_SETTINGS' casted as 'None' with default 'local'
+2024-09-24 15:12:08,303:INFO:: D:\Rakib\MyPortfolio\config\.env doesn't exist - if you're not configuring your environment separately, create one.
+2024-09-24 15:12:08,304:DEBUG:: get 'DJANGO_SETTINGS' casted as 'None' with default 'local'
+2024-09-24 15:16:28,510:INFO:: D:\Rakib\MyPortfolio\config\.env doesn't exist - if you're not configuring your environment separately, create one.
+2024-09-24 15:16:28,511:DEBUG:: get 'DJANGO_SETTINGS' casted as 'None' with default 'local'
+2024-09-24 15:16:34,978:WARNING:: Not Found: /
+2024-09-24 15:16:34,978:WARNING:: Not Found: /
+2024-09-24 15:16:34,980:WARNING:: "GET / HTTP/1.1" 404 2811
+2024-09-24 15:16:34,980:WARNING:: "GET / HTTP/1.1" 404 2811
+2024-09-24 15:16:35,229:WARNING:: Not Found: /favicon.ico
+2024-09-24 15:16:35,229:WARNING:: Not Found: /favicon.ico
+2024-09-24 15:16:35,230:WARNING:: "GET /favicon.ico HTTP/1.1" 404 2862
+2024-09-24 15:16:35,230:WARNING:: "GET /favicon.ico HTTP/1.1" 404 2862
+2024-09-24 15:16:41,092:WARNING:: "GET /static/vue/css/app.css?v= HTTP/1.1" 404 1807
+2024-09-24 15:16:41,092:WARNING:: "GET /static/vue/css/app.css?v= HTTP/1.1" 404 1807
+2024-09-24 15:16:41,104:WARNING:: "GET /static/assets/img/logo.png HTTP/1.1" 404 1816
+2024-09-24 15:16:41,104:WARNING:: "GET /static/assets/img/logo.png HTTP/1.1" 404 1816
+2024-09-24 15:16:41,257:WARNING:: "GET /static/img/team/3-thumb.png HTTP/1.1" 404 1819
+2024-09-24 15:16:41,257:WARNING:: "GET /static/img/team/3-thumb.png HTTP/1.1" 404 1819
+2024-09-24 15:16:44,739:WARNING:: "GET /static/vue/css/app.css?v= HTTP/1.1" 404 1807
+2024-09-24 15:16:44,742:WARNING:: "GET /static/assets/img/logo.png HTTP/1.1" 404 1816
+2024-09-24 15:16:44,742:WARNING:: "GET /static/assets/img/logo.png HTTP/1.1" 404 1816
+2024-09-24 15:16:44,739:WARNING:: "GET /static/vue/css/app.css?v= HTTP/1.1" 404 1807
+2024-09-24 15:16:44,817:WARNING:: "GET /static/img/team/3-thumb.png HTTP/1.1" 404 1819
+2024-09-24 15:16:44,817:WARNING:: "GET /static/img/team/3-thumb.png HTTP/1.1" 404 1819
+2024-09-24 15:27:01,416:WARNING:: "GET /static/vue/css/app.css?v= HTTP/1.1" 404 1807
+2024-09-24 15:27:01,416:WARNING:: "GET /static/vue/css/app.css?v= HTTP/1.1" 404 1807
+2024-09-24 15:27:01,592:WARNING:: "GET /static/assets/img/logo.png HTTP/1.1" 404 1816
+2024-09-24 15:27:01,592:WARNING:: "GET /static/assets/img/logo.png HTTP/1.1" 404 1816
+2024-09-24 15:27:02,427:WARNING:: "GET /static/img/team/3-thumb.png HTTP/1.1" 404 1819
+2024-09-24 15:27:02,427:WARNING:: "GET /static/img/team/3-thumb.png HTTP/1.1" 404 1819
+2024-09-24 15:30:43,404:INFO:: D:\Rakib\MyPortfolio\config\.env doesn't exist - if you're not configuring your environment separately, create one.
+2024-09-24 15:30:43,405:DEBUG:: get 'DJANGO_SETTINGS' casted as 'None' with default 'local'
+2024-09-24 15:30:49,359:INFO:: D:\Rakib\MyPortfolio\config\.env doesn't exist - if you're not configuring your environment separately, create one.
+2024-09-24 15:30:49,359:DEBUG:: get 'DJANGO_SETTINGS' casted as 'None' with default 'local'
+2024-09-24 15:32:33,450:ERROR:: Internal Server Error: /admin/list/
+Traceback (most recent call last):
+  File "D:\Rakib\MyPortfolio\env\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Rakib\MyPortfolio\env\Lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Rakib\MyPortfolio\env\Lib\site-packages\django\views\generic\base.py", line 104, in view
+    return self.dispatch(request, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Rakib\MyPortfolio\env\Lib\site-packages\django\utils\decorators.py", line 46, in _wrapper
+    return bound_method(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Rakib\MyPortfolio\env\Lib\site-packages\django\contrib\auth\decorators.py", line 23, in _wrapper_view
+    return view_func(request, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Rakib\MyPortfolio\env\Lib\site-packages\django\views\generic\base.py", line 143, in dispatch
+    return handler(request, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Rakib\MyPortfolio\apps\admin\views.py", line 191, in get
+    return render(request, self.template_name, context)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Rakib\MyPortfolio\env\Lib\site-packages\django\shortcuts.py", line 24, in render
+    content = loader.render_to_string(template_name, context, request, using=using)
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Rakib\MyPortfolio\env\Lib\site-packages\django\template\loader.py", line 61, in render_to_string
+    template = get_template(template_name, using=using)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Rakib\MyPortfolio\env\Lib\site-packages\django\template\loader.py", line 15, in get_template
+    return engine.get_template(template_name)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Rakib\MyPortfolio\env\Lib\site-packages\django\template\backends\django.py", line 33, in get_template
+    return Template(self.engine.get_template(template_name), self)
+                    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Rakib\MyPortfolio\env\Lib\site-packages\django\template\engine.py", line 175, in get_template
+    template, origin = self.find_template(template_name)
+                       ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Rakib\MyPortfolio\env\Lib\site-packages\django\template\engine.py", line 157, in find_template
+    template = loader.get_template(name, skip=skip)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Rakib\MyPortfolio\env\Lib\site-packages\django\template\loaders\cached.py", line 57, in get_template
+    template = super().get_template(template_name, skip)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Rakib\MyPortfolio\env\Lib\site-packages\django\template\loaders\base.py", line 28, in get_template
+    return Template(
+           ^^^^^^^^^
+  File "D:\Rakib\MyPortfolio\env\Lib\site-packages\django\template\base.py", line 154, in __init__
+    self.nodelist = self.compile_nodelist()
+                    ^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Rakib\MyPortfolio\env\Lib\site-packages\django\template\base.py", line 200, in compile_nodelist
+    return parser.parse()
+           ^^^^^^^^^^^^^^
+  File "D:\Rakib\MyPortfolio\env\Lib\site-packages\django\template\base.py", line 513, in parse
+    raise self.error(token, e)
+  File "D:\Rakib\MyPortfolio\env\Lib\site-packages\django\template\base.py", line 511, in parse
+    compiled_result = compile_func(self, token)
+                      ^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Rakib\MyPortfolio\env\Lib\site-packages\django\template\loader_tags.py", line 293, in do_extends
+    nodelist = parser.parse()
+               ^^^^^^^^^^^^^^
+  File "D:\Rakib\MyPortfolio\env\Lib\site-packages\django\template\base.py", line 513, in parse
+    raise self.error(token, e)
+  File "D:\Rakib\MyPortfolio\env\Lib\site-packages\django\template\base.py", line 511, in parse
+    compiled_result = compile_func(self, token)
+                      ^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Rakib\MyPortfolio\env\Lib\site-packages\django\template\loader_tags.py", line 238, in do_block
+    parser.invalid_block_tag(endblock, "endblock", acceptable_endblocks)
+  File "D:\Rakib\MyPortfolio\env\Lib\site-packages\django\template\base.py", line 558, in invalid_block_tag
+    raise self.error(
+django.template.exceptions.TemplateSyntaxError: Invalid block tag on line 16: 'endblock', expected 'endblock' or 'endblock styles'. Did you forget to register or load this tag?
+2024-09-24 15:32:33,450:ERROR:: Internal Server Error: /admin/list/
+Traceback (most recent call last):
+  File "D:\Rakib\MyPortfolio\env\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Rakib\MyPortfolio\env\Lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Rakib\MyPortfolio\env\Lib\site-packages\django\views\generic\base.py", line 104, in view
+    return self.dispatch(request, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Rakib\MyPortfolio\env\Lib\site-packages\django\utils\decorators.py", line 46, in _wrapper
+    return bound_method(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Rakib\MyPortfolio\env\Lib\site-packages\django\contrib\auth\decorators.py", line 23, in _wrapper_view
+    return view_func(request, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Rakib\MyPortfolio\env\Lib\site-packages\django\views\generic\base.py", line 143, in dispatch
+    return handler(request, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Rakib\MyPortfolio\apps\admin\views.py", line 191, in get
+    return render(request, self.template_name, context)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Rakib\MyPortfolio\env\Lib\site-packages\django\shortcuts.py", line 24, in render
+    content = loader.render_to_string(template_name, context, request, using=using)
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Rakib\MyPortfolio\env\Lib\site-packages\django\template\loader.py", line 61, in render_to_string
+    template = get_template(template_name, using=using)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Rakib\MyPortfolio\env\Lib\site-packages\django\template\loader.py", line 15, in get_template
+    return engine.get_template(template_name)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Rakib\MyPortfolio\env\Lib\site-packages\django\template\backends\django.py", line 33, in get_template
+    return Template(self.engine.get_template(template_name), self)
+                    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Rakib\MyPortfolio\env\Lib\site-packages\django\template\engine.py", line 175, in get_template
+    template, origin = self.find_template(template_name)
+                       ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Rakib\MyPortfolio\env\Lib\site-packages\django\template\engine.py", line 157, in find_template
+    template = loader.get_template(name, skip=skip)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Rakib\MyPortfolio\env\Lib\site-packages\django\template\loaders\cached.py", line 57, in get_template
+    template = super().get_template(template_name, skip)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Rakib\MyPortfolio\env\Lib\site-packages\django\template\loaders\base.py", line 28, in get_template
+    return Template(
+           ^^^^^^^^^
+  File "D:\Rakib\MyPortfolio\env\Lib\site-packages\django\template\base.py", line 154, in __init__
+    self.nodelist = self.compile_nodelist()
+                    ^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Rakib\MyPortfolio\env\Lib\site-packages\django\template\base.py", line 200, in compile_nodelist
+    return parser.parse()
+           ^^^^^^^^^^^^^^
+  File "D:\Rakib\MyPortfolio\env\Lib\site-packages\django\template\base.py", line 513, in parse
+    raise self.error(token, e)
+  File "D:\Rakib\MyPortfolio\env\Lib\site-packages\django\template\base.py", line 511, in parse
+    compiled_result = compile_func(self, token)
+                      ^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Rakib\MyPortfolio\env\Lib\site-packages\django\template\loader_tags.py", line 293, in do_extends
+    nodelist = parser.parse()
+               ^^^^^^^^^^^^^^
+  File "D:\Rakib\MyPortfolio\env\Lib\site-packages\django\template\base.py", line 513, in parse
+    raise self.error(token, e)
+  File "D:\Rakib\MyPortfolio\env\Lib\site-packages\django\template\base.py", line 511, in parse
+    compiled_result = compile_func(self, token)
+                      ^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Rakib\MyPortfolio\env\Lib\site-packages\django\template\loader_tags.py", line 238, in do_block
+    parser.invalid_block_tag(endblock, "endblock", acceptable_endblocks)
+  File "D:\Rakib\MyPortfolio\env\Lib\site-packages\django\template\base.py", line 558, in invalid_block_tag
+    raise self.error(
+django.template.exceptions.TemplateSyntaxError: Invalid block tag on line 16: 'endblock', expected 'endblock' or 'endblock styles'. Did you forget to register or load this tag?
+2024-09-24 15:32:33,475:ERROR:: "GET /admin/list/ HTTP/1.1" 500 182560
+2024-09-24 15:32:33,475:ERROR:: "GET /admin/list/ HTTP/1.1" 500 182560
+2024-09-24 15:32:54,330:WARNING:: Not Found: /
+2024-09-24 15:32:54,330:WARNING:: Not Found: /
+2024-09-24 15:32:54,331:WARNING:: "GET / HTTP/1.1" 404 2811
+2024-09-24 15:32:54,331:WARNING:: "GET / HTTP/1.1" 404 2811
+2024-09-24 15:32:58,047:WARNING:: "GET /static/vue/css/app.css?v= HTTP/1.1" 404 1807
+2024-09-24 15:32:58,047:WARNING:: "GET /static/vue/css/app.css?v= HTTP/1.1" 404 1807
+2024-09-24 15:32:58,072:WARNING:: "GET /static/assets/img/logo.png HTTP/1.1" 404 1816
+2024-09-24 15:32:58,072:WARNING:: "GET /static/assets/img/logo.png HTTP/1.1" 404 1816
+2024-09-24 15:32:58,210:WARNING:: "GET /static/img/team/3-thumb.png HTTP/1.1" 404 1819
+2024-09-24 15:32:58,210:WARNING:: "GET /static/img/team/3-thumb.png HTTP/1.1" 404 1819
+2024-09-24 15:32:58,223:WARNING:: Not Found: /admin/assets/img/icons/weather-icon.png
+2024-09-24 15:32:58,223:WARNING:: Not Found: /admin/assets/img/icons/weather-icon.png
+2024-09-24 15:32:58,309:WARNING:: "GET /admin/assets/img/icons/weather-icon.png HTTP/1.1" 404 5981
+2024-09-24 15:32:58,309:WARNING:: "GET /admin/assets/img/icons/weather-icon.png HTTP/1.1" 404 5981
+2024-09-24 15:32:58,768:WARNING:: Not Found: /admin/assets/img/icons/weather-icon.png
+2024-09-24 15:32:58,768:WARNING:: Not Found: /admin/assets/img/icons/weather-icon.png
+2024-09-24 15:32:58,772:WARNING:: "GET /admin/assets/img/icons/weather-icon.png HTTP/1.1" 404 5981
+2024-09-24 15:32:58,772:WARNING:: "GET /admin/assets/img/icons/weather-icon.png HTTP/1.1" 404 5981
+2024-09-24 15:33:01,304:ERROR:: Internal Server Error: /admin/list/
+Traceback (most recent call last):
+  File "D:\Rakib\MyPortfolio\env\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Rakib\MyPortfolio\env\Lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Rakib\MyPortfolio\env\Lib\site-packages\django\views\generic\base.py", line 104, in view
+    return self.dispatch(request, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Rakib\MyPortfolio\env\Lib\site-packages\django\utils\decorators.py", line 46, in _wrapper
+    return bound_method(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Rakib\MyPortfolio\env\Lib\site-packages\django\contrib\auth\decorators.py", line 23, in _wrapper_view
+    return view_func(request, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Rakib\MyPortfolio\env\Lib\site-packages\django\views\generic\base.py", line 143, in dispatch
+    return handler(request, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Rakib\MyPortfolio\apps\admin\views.py", line 191, in get
+    return render(request, self.template_name, context)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Rakib\MyPortfolio\env\Lib\site-packages\django\shortcuts.py", line 24, in render
+    content = loader.render_to_string(template_name, context, request, using=using)
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Rakib\MyPortfolio\env\Lib\site-packages\django\template\loader.py", line 61, in render_to_string
+    template = get_template(template_name, using=using)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Rakib\MyPortfolio\env\Lib\site-packages\django\template\loader.py", line 15, in get_template
+    return engine.get_template(template_name)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Rakib\MyPortfolio\env\Lib\site-packages\django\template\backends\django.py", line 33, in get_template
+    return Template(self.engine.get_template(template_name), self)
+                    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Rakib\MyPortfolio\env\Lib\site-packages\django\template\engine.py", line 175, in get_template
+    template, origin = self.find_template(template_name)
+                       ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Rakib\MyPortfolio\env\Lib\site-packages\django\template\engine.py", line 157, in find_template
+    template = loader.get_template(name, skip=skip)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Rakib\MyPortfolio\env\Lib\site-packages\django\template\loaders\cached.py", line 57, in get_template
+    template = super().get_template(template_name, skip)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Rakib\MyPortfolio\env\Lib\site-packages\django\template\loaders\base.py", line 28, in get_template
+    return Template(
+           ^^^^^^^^^
+  File "D:\Rakib\MyPortfolio\env\Lib\site-packages\django\template\base.py", line 154, in __init__
+    self.nodelist = self.compile_nodelist()
+                    ^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Rakib\MyPortfolio\env\Lib\site-packages\django\template\base.py", line 200, in compile_nodelist
+    return parser.parse()
+           ^^^^^^^^^^^^^^
+  File "D:\Rakib\MyPortfolio\env\Lib\site-packages\django\template\base.py", line 513, in parse
+    raise self.error(token, e)
+  File "D:\Rakib\MyPortfolio\env\Lib\site-packages\django\template\base.py", line 511, in parse
+    compiled_result = compile_func(self, token)
+                      ^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Rakib\MyPortfolio\env\Lib\site-packages\django\template\loader_tags.py", line 293, in do_extends
+    nodelist = parser.parse()
+               ^^^^^^^^^^^^^^
+  File "D:\Rakib\MyPortfolio\env\Lib\site-packages\django\template\base.py", line 513, in parse
+    raise self.error(token, e)
+  File "D:\Rakib\MyPortfolio\env\Lib\site-packages\django\template\base.py", line 511, in parse
+    compiled_result = compile_func(self, token)
+                      ^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Rakib\MyPortfolio\env\Lib\site-packages\django\template\loader_tags.py", line 238, in do_block
+    parser.invalid_block_tag(endblock, "endblock", acceptable_endblocks)
+  File "D:\Rakib\MyPortfolio\env\Lib\site-packages\django\template\base.py", line 558, in invalid_block_tag
+    raise self.error(
+django.template.exceptions.TemplateSyntaxError: Invalid block tag on line 16: 'endblock', expected 'endblock' or 'endblock styles'. Did you forget to register or load this tag?
+2024-09-24 15:33:01,304:ERROR:: Internal Server Error: /admin/list/
+Traceback (most recent call last):
+  File "D:\Rakib\MyPortfolio\env\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Rakib\MyPortfolio\env\Lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Rakib\MyPortfolio\env\Lib\site-packages\django\views\generic\base.py", line 104, in view
+    return self.dispatch(request, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Rakib\MyPortfolio\env\Lib\site-packages\django\utils\decorators.py", line 46, in _wrapper
+    return bound_method(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Rakib\MyPortfolio\env\Lib\site-packages\django\contrib\auth\decorators.py", line 23, in _wrapper_view
+    return view_func(request, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Rakib\MyPortfolio\env\Lib\site-packages\django\views\generic\base.py", line 143, in dispatch
+    return handler(request, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Rakib\MyPortfolio\apps\admin\views.py", line 191, in get
+    return render(request, self.template_name, context)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Rakib\MyPortfolio\env\Lib\site-packages\django\shortcuts.py", line 24, in render
+    content = loader.render_to_string(template_name, context, request, using=using)
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Rakib\MyPortfolio\env\Lib\site-packages\django\template\loader.py", line 61, in render_to_string
+    template = get_template(template_name, using=using)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Rakib\MyPortfolio\env\Lib\site-packages\django\template\loader.py", line 15, in get_template
+    return engine.get_template(template_name)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Rakib\MyPortfolio\env\Lib\site-packages\django\template\backends\django.py", line 33, in get_template
+    return Template(self.engine.get_template(template_name), self)
+                    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Rakib\MyPortfolio\env\Lib\site-packages\django\template\engine.py", line 175, in get_template
+    template, origin = self.find_template(template_name)
+                       ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Rakib\MyPortfolio\env\Lib\site-packages\django\template\engine.py", line 157, in find_template
+    template = loader.get_template(name, skip=skip)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Rakib\MyPortfolio\env\Lib\site-packages\django\template\loaders\cached.py", line 57, in get_template
+    template = super().get_template(template_name, skip)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Rakib\MyPortfolio\env\Lib\site-packages\django\template\loaders\base.py", line 28, in get_template
+    return Template(
+           ^^^^^^^^^
+  File "D:\Rakib\MyPortfolio\env\Lib\site-packages\django\template\base.py", line 154, in __init__
+    self.nodelist = self.compile_nodelist()
+                    ^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Rakib\MyPortfolio\env\Lib\site-packages\django\template\base.py", line 200, in compile_nodelist
+    return parser.parse()
+           ^^^^^^^^^^^^^^
+  File "D:\Rakib\MyPortfolio\env\Lib\site-packages\django\template\base.py", line 513, in parse
+    raise self.error(token, e)
+  File "D:\Rakib\MyPortfolio\env\Lib\site-packages\django\template\base.py", line 511, in parse
+    compiled_result = compile_func(self, token)
+                      ^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Rakib\MyPortfolio\env\Lib\site-packages\django\template\loader_tags.py", line 293, in do_extends
+    nodelist = parser.parse()
+               ^^^^^^^^^^^^^^
+  File "D:\Rakib\MyPortfolio\env\Lib\site-packages\django\template\base.py", line 513, in parse
+    raise self.error(token, e)
+  File "D:\Rakib\MyPortfolio\env\Lib\site-packages\django\template\base.py", line 511, in parse
+    compiled_result = compile_func(self, token)
+                      ^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Rakib\MyPortfolio\env\Lib\site-packages\django\template\loader_tags.py", line 238, in do_block
+    parser.invalid_block_tag(endblock, "endblock", acceptable_endblocks)
+  File "D:\Rakib\MyPortfolio\env\Lib\site-packages\django\template\base.py", line 558, in invalid_block_tag
+    raise self.error(
+django.template.exceptions.TemplateSyntaxError: Invalid block tag on line 16: 'endblock', expected 'endblock' or 'endblock styles'. Did you forget to register or load this tag?
+2024-09-24 15:33:01,325:ERROR:: "GET /admin/list/ HTTP/1.1" 500 182549
+2024-09-24 15:33:01,325:ERROR:: "GET /admin/list/ HTTP/1.1" 500 182549
+2024-09-24 15:34:21,465:INFO:: D:\Rakib\MyPortfolio\config\.env doesn't exist - if you're not configuring your environment separately, create one.
+2024-09-24 15:34:21,466:DEBUG:: get 'DJANGO_SETTINGS' casted as 'None' with default 'local'
+2024-09-24 15:34:27,575:WARNING:: "GET /static/vue/css/app.css?v= HTTP/1.1" 404 1807
+2024-09-24 15:34:27,575:WARNING:: "GET /static/vue/css/app.css?v= HTTP/1.1" 404 1807
+2024-09-24 15:34:27,596:WARNING:: "GET /static/assets/img/logo.png HTTP/1.1" 404 1816
+2024-09-24 15:34:27,596:WARNING:: "GET /static/assets/img/logo.png HTTP/1.1" 404 1816
+2024-09-24 15:34:27,705:WARNING:: "GET /static/img/team/3-thumb.png HTTP/1.1" 404 1819
+2024-09-24 15:34:27,705:WARNING:: "GET /static/img/team/3-thumb.png HTTP/1.1" 404 1819
+2024-09-24 15:40:04,898:WARNING:: "GET /static/vue/css/app.css?v= HTTP/1.1" 404 1807
+2024-09-24 15:40:04,898:WARNING:: "GET /static/vue/css/app.css?v= HTTP/1.1" 404 1807
+2024-09-24 15:40:04,908:WARNING:: "GET /static/assets/img/logo.png HTTP/1.1" 404 1816
+2024-09-24 15:40:04,908:WARNING:: "GET /static/assets/img/logo.png HTTP/1.1" 404 1816
+2024-09-24 15:40:05,241:WARNING:: "GET /static/img/team/3-thumb.png HTTP/1.1" 404 1819
+2024-09-24 15:40:05,241:WARNING:: "GET /static/img/team/3-thumb.png HTTP/1.1" 404 1819
+2024-09-24 15:42:57,377:WARNING:: "GET /static/vue/css/app.css?v= HTTP/1.1" 404 1807
+2024-09-24 15:42:57,377:WARNING:: "GET /static/vue/css/app.css?v= HTTP/1.1" 404 1807
+2024-09-24 15:42:57,379:WARNING:: "GET /static/assets/img/logo.png HTTP/1.1" 404 1816
+2024-09-24 15:42:57,379:WARNING:: "GET /static/assets/img/logo.png HTTP/1.1" 404 1816
+2024-09-24 15:42:57,790:WARNING:: "GET /static/img/team/3-thumb.png HTTP/1.1" 404 1819
+2024-09-24 15:42:57,790:WARNING:: "GET /static/img/team/3-thumb.png HTTP/1.1" 404 1819
+2024-09-24 15:43:10,793:WARNING:: "GET /static/vue/css/app.css?v= HTTP/1.1" 404 1807
+2024-09-24 15:43:10,793:WARNING:: "GET /static/vue/css/app.css?v= HTTP/1.1" 404 1807
+2024-09-24 15:43:10,804:WARNING:: "GET /static/assets/img/logo.png HTTP/1.1" 404 1816
+2024-09-24 15:43:10,804:WARNING:: "GET /static/assets/img/logo.png HTTP/1.1" 404 1816
+2024-09-24 15:43:11,997:WARNING:: "GET /static/img/team/3-thumb.png HTTP/1.1" 404 1819
+2024-09-24 15:43:11,997:WARNING:: "GET /static/img/team/3-thumb.png HTTP/1.1" 404 1819
+2024-09-24 15:50:27,149:WARNING:: "GET /static/vue/css/app.css?v= HTTP/1.1" 404 1807
+2024-09-24 15:50:27,149:WARNING:: "GET /static/vue/css/app.css?v= HTTP/1.1" 404 1807
+2024-09-24 15:50:27,167:WARNING:: "GET /static/assets/img/logo.png HTTP/1.1" 404 1816
+2024-09-24 15:50:27,167:WARNING:: "GET /static/assets/img/logo.png HTTP/1.1" 404 1816
+2024-09-24 15:50:27,274:WARNING:: "GET /static/img/team/3-thumb.png HTTP/1.1" 404 1819
+2024-09-24 15:50:27,274:WARNING:: "GET /static/img/team/3-thumb.png HTTP/1.1" 404 1819
+2024-09-24 15:52:20,752:WARNING:: "GET /static/vue/css/app.css?v= HTTP/1.1" 404 1807
+2024-09-24 15:52:20,752:WARNING:: "GET /static/vue/css/app.css?v= HTTP/1.1" 404 1807
+2024-09-24 15:52:20,765:WARNING:: "GET /static/assets/img/logo.png HTTP/1.1" 404 1816
+2024-09-24 15:52:20,765:WARNING:: "GET /static/assets/img/logo.png HTTP/1.1" 404 1816
+2024-09-24 15:52:20,891:WARNING:: "GET /static/img/team/3-thumb.png HTTP/1.1" 404 1819
+2024-09-24 15:52:20,891:WARNING:: "GET /static/img/team/3-thumb.png HTTP/1.1" 404 1819
+2024-09-24 15:53:21,527:WARNING:: "GET /static/vue/css/app.css?v= HTTP/1.1" 404 1807
+2024-09-24 15:53:21,527:WARNING:: "GET /static/vue/css/app.css?v= HTTP/1.1" 404 1807
+2024-09-24 15:53:21,530:WARNING:: "GET /static/assets/img/logo.png HTTP/1.1" 404 1816
+2024-09-24 15:53:21,530:WARNING:: "GET /static/assets/img/logo.png HTTP/1.1" 404 1816
+2024-09-24 15:53:21,966:WARNING:: "GET /static/img/team/3-thumb.png HTTP/1.1" 404 1819
+2024-09-24 15:53:21,966:WARNING:: "GET /static/img/team/3-thumb.png HTTP/1.1" 404 1819
+2024-09-24 15:53:35,504:WARNING:: "GET /static/vue/css/app.css?v= HTTP/1.1" 404 1807
+2024-09-24 15:53:35,504:WARNING:: "GET /static/vue/css/app.css?v= HTTP/1.1" 404 1807
+2024-09-24 15:53:35,511:WARNING:: "GET /static/assets/img/logo.png HTTP/1.1" 404 1816
+2024-09-24 15:53:35,511:WARNING:: "GET /static/assets/img/logo.png HTTP/1.1" 404 1816
+2024-09-24 15:53:35,599:WARNING:: "GET /static/img/team/3-thumb.png HTTP/1.1" 404 1819
+2024-09-24 15:53:35,599:WARNING:: "GET /static/img/team/3-thumb.png HTTP/1.1" 404 1819
+2024-09-24 15:59:01,787:WARNING:: "GET /static/vue/css/app.css?v= HTTP/1.1" 404 1807
+2024-09-24 15:59:01,787:WARNING:: "GET /static/vue/css/app.css?v= HTTP/1.1" 404 1807
+2024-09-24 15:59:01,831:WARNING:: "GET /static/assets/img/logo.png HTTP/1.1" 404 1816
+2024-09-24 15:59:01,831:WARNING:: "GET /static/assets/img/logo.png HTTP/1.1" 404 1816
+2024-09-24 15:59:01,921:WARNING:: "GET /static/img/team/3-thumb.png HTTP/1.1" 404 1819
+2024-09-24 15:59:01,921:WARNING:: "GET /static/img/team/3-thumb.png HTTP/1.1" 404 1819
+2024-09-24 16:03:25,643:WARNING:: "GET /static/vue/css/app.css?v= HTTP/1.1" 404 1807
+2024-09-24 16:03:25,643:WARNING:: "GET /static/vue/css/app.css?v= HTTP/1.1" 404 1807
+2024-09-24 16:03:25,689:WARNING:: "GET /static/assets/img/logo.png HTTP/1.1" 404 1816
+2024-09-24 16:03:25,689:WARNING:: "GET /static/assets/img/logo.png HTTP/1.1" 404 1816
+2024-09-24 16:03:25,844:WARNING:: "GET /static/img/team/3-thumb.png HTTP/1.1" 404 1819
+2024-09-24 16:03:25,844:WARNING:: "GET /static/img/team/3-thumb.png HTTP/1.1" 404 1819
+2024-09-24 16:04:54,054:WARNING:: "GET /static/vue/css/app.css?v= HTTP/1.1" 404 1807
+2024-09-24 16:04:54,054:WARNING:: "GET /static/vue/css/app.css?v= HTTP/1.1" 404 1807
+2024-09-24 16:04:54,079:WARNING:: "GET /static/assets/img/logo.png HTTP/1.1" 404 1816
+2024-09-24 16:04:54,079:WARNING:: "GET /static/assets/img/logo.png HTTP/1.1" 404 1816
+2024-09-24 16:04:54,438:WARNING:: "GET /static/img/team/3-thumb.png HTTP/1.1" 404 1819
+2024-09-24 16:04:54,438:WARNING:: "GET /static/img/team/3-thumb.png HTTP/1.1" 404 1819
+2024-09-24 16:06:31,705:WARNING:: "GET /static/vue/css/app.css?v= HTTP/1.1" 404 1807
+2024-09-24 16:06:31,705:WARNING:: "GET /static/vue/css/app.css?v= HTTP/1.1" 404 1807
+2024-09-24 16:06:31,724:WARNING:: "GET /static/assets/img/logo.png HTTP/1.1" 404 1816
+2024-09-24 16:06:31,724:WARNING:: "GET /static/assets/img/logo.png HTTP/1.1" 404 1816
+2024-09-24 16:06:31,854:WARNING:: "GET /static/img/team/3-thumb.png HTTP/1.1" 404 1819
+2024-09-24 16:06:31,854:WARNING:: "GET /static/img/team/3-thumb.png HTTP/1.1" 404 1819
+2024-09-24 16:07:58,329:WARNING:: "GET /static/vue/css/app.css?v= HTTP/1.1" 404 1807
+2024-09-24 16:07:58,329:WARNING:: "GET /static/vue/css/app.css?v= HTTP/1.1" 404 1807
+2024-09-24 16:07:58,348:WARNING:: "GET /static/assets/img/logo.png HTTP/1.1" 404 1816
+2024-09-24 16:07:58,348:WARNING:: "GET /static/assets/img/logo.png HTTP/1.1" 404 1816
+2024-09-24 16:07:58,503:WARNING:: "GET /static/img/team/3-thumb.png HTTP/1.1" 404 1819
+2024-09-24 16:07:58,503:WARNING:: "GET /static/img/team/3-thumb.png HTTP/1.1" 404 1819
+2024-09-24 16:12:50,042:WARNING:: "GET /static/vue/css/app.css?v= HTTP/1.1" 404 1807
+2024-09-24 16:12:50,042:WARNING:: "GET /static/vue/css/app.css?v= HTTP/1.1" 404 1807
+2024-09-24 16:12:50,052:WARNING:: "GET /static/assets/img/logo.png HTTP/1.1" 404 1816
+2024-09-24 16:12:50,052:WARNING:: "GET /static/assets/img/logo.png HTTP/1.1" 404 1816
+2024-09-24 16:12:50,160:WARNING:: "GET /static/img/team/3-thumb.png HTTP/1.1" 404 1819
+2024-09-24 16:12:50,160:WARNING:: "GET /static/img/team/3-thumb.png HTTP/1.1" 404 1819
+2024-09-24 16:15:31,877:WARNING:: "GET /static/vue/css/app.css?v= HTTP/1.1" 404 1807
+2024-09-24 16:15:31,888:WARNING:: "GET /static/assets/img/logo.png HTTP/1.1" 404 1816
+2024-09-24 16:15:31,877:WARNING:: "GET /static/vue/css/app.css?v= HTTP/1.1" 404 1807
+2024-09-24 16:15:31,888:WARNING:: "GET /static/assets/img/logo.png HTTP/1.1" 404 1816
+2024-09-24 16:15:32,037:WARNING:: "GET /static/img/team/3-thumb.png HTTP/1.1" 404 1819
+2024-09-24 16:15:32,037:WARNING:: "GET /static/img/team/3-thumb.png HTTP/1.1" 404 1819
+2024-09-24 16:15:41,139:WARNING:: "GET /static/vue/css/app.css?v= HTTP/1.1" 404 1807
+2024-09-24 16:15:41,139:WARNING:: "GET /static/vue/css/app.css?v= HTTP/1.1" 404 1807
+2024-09-24 16:15:41,145:WARNING:: "GET /static/assets/img/logo.png HTTP/1.1" 404 1816
+2024-09-24 16:15:41,145:WARNING:: "GET /static/assets/img/logo.png HTTP/1.1" 404 1816
+2024-09-24 16:15:41,512:WARNING:: "GET /static/img/team/3-thumb.png HTTP/1.1" 404 1819
+2024-09-24 16:15:41,512:WARNING:: "GET /static/img/team/3-thumb.png HTTP/1.1" 404 1819
+2024-09-24 16:17:21,586:WARNING:: "GET /static/vue/css/app.css?v= HTTP/1.1" 404 1807
+2024-09-24 16:17:21,586:WARNING:: "GET /static/vue/css/app.css?v= HTTP/1.1" 404 1807
+2024-09-24 16:17:21,589:WARNING:: "GET /static/assets/img/logo.png HTTP/1.1" 404 1816
+2024-09-24 16:17:21,589:WARNING:: "GET /static/assets/img/logo.png HTTP/1.1" 404 1816
+2024-09-24 16:17:21,638:WARNING:: "GET /static/img/team/3-thumb.png HTTP/1.1" 404 1819
+2024-09-24 16:17:21,638:WARNING:: "GET /static/img/team/3-thumb.png HTTP/1.1" 404 1819
+2024-09-24 16:17:35,634:WARNING:: "GET /static/vue/css/app.css?v= HTTP/1.1" 404 1807
+2024-09-24 16:17:35,634:WARNING:: "GET /static/vue/css/app.css?v= HTTP/1.1" 404 1807
+2024-09-24 16:17:35,639:WARNING:: "GET /static/assets/img/logo.png HTTP/1.1" 404 1816
+2024-09-24 16:17:35,639:WARNING:: "GET /static/assets/img/logo.png HTTP/1.1" 404 1816
+2024-09-24 16:17:35,664:WARNING:: "GET /static/img/team/3-thumb.png HTTP/1.1" 404 1819
+2024-09-24 16:17:35,664:WARNING:: "GET /static/img/team/3-thumb.png HTTP/1.1" 404 1819
+2024-09-24 16:19:14,933:WARNING:: "GET /static/vue/css/app.css?v= HTTP/1.1" 404 1807
+2024-09-24 16:19:14,933:WARNING:: "GET /static/vue/css/app.css?v= HTTP/1.1" 404 1807
+2024-09-24 16:19:14,956:WARNING:: "GET /static/assets/img/logo.png HTTP/1.1" 404 1816
+2024-09-24 16:19:14,956:WARNING:: "GET /static/assets/img/logo.png HTTP/1.1" 404 1816
+2024-09-24 16:19:15,180:WARNING:: "GET /static/img/team/3-thumb.png HTTP/1.1" 404 1819
+2024-09-24 16:19:15,180:WARNING:: "GET /static/img/team/3-thumb.png HTTP/1.1" 404 1819
+2024-09-24 16:25:25,181:WARNING:: "GET /static/vue/css/app.css?v= HTTP/1.1" 404 1807
+2024-09-24 16:25:25,181:WARNING:: "GET /static/vue/css/app.css?v= HTTP/1.1" 404 1807
+2024-09-24 16:25:25,197:WARNING:: "GET /static/assets/img/logo.png HTTP/1.1" 404 1816
+2024-09-24 16:25:25,197:WARNING:: "GET /static/assets/img/logo.png HTTP/1.1" 404 1816
+2024-09-24 16:25:25,344:WARNING:: "GET /static/img/team/3-thumb.png HTTP/1.1" 404 1819
+2024-09-24 16:25:25,344:WARNING:: "GET /static/img/team/3-thumb.png HTTP/1.1" 404 1819
+2024-09-24 16:25:27,308:WARNING:: "GET /static/vue/css/app.css?v= HTTP/1.1" 404 1807
+2024-09-24 16:25:27,308:WARNING:: "GET /static/vue/css/app.css?v= HTTP/1.1" 404 1807
+2024-09-24 16:25:27,308:WARNING:: "GET /static/assets/img/logo.png HTTP/1.1" 404 1816
+2024-09-24 16:25:27,308:WARNING:: "GET /static/assets/img/logo.png HTTP/1.1" 404 1816
+2024-09-24 16:25:27,330:WARNING:: "GET /static/img/team/3-thumb.png HTTP/1.1" 404 1819
+2024-09-24 16:25:27,330:WARNING:: "GET /static/img/team/3-thumb.png HTTP/1.1" 404 1819
+2024-09-24 16:31:21,055:WARNING:: "GET /static/vue/css/app.css?v= HTTP/1.1" 404 1807
+2024-09-24 16:31:21,055:WARNING:: "GET /static/vue/css/app.css?v= HTTP/1.1" 404 1807
+2024-09-24 16:32:42,749:WARNING:: "GET /static/vue/css/app.css?v= HTTP/1.1" 404 1807
+2024-09-24 16:32:42,749:WARNING:: "GET /static/vue/css/app.css?v= HTTP/1.1" 404 1807
+2024-09-24 16:32:42,872:WARNING:: "GET /static/assets/img/logo.png HTTP/1.1" 404 1816
+2024-09-24 16:32:42,872:WARNING:: "GET /static/assets/img/logo.png HTTP/1.1" 404 1816
+2024-09-24 16:32:43,419:WARNING:: "GET /static/img/team/3-thumb.png HTTP/1.1" 404 1819
+2024-09-24 16:32:43,419:WARNING:: "GET /static/img/team/3-thumb.png HTTP/1.1" 404 1819
