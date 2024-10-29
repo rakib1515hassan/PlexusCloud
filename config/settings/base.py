@@ -35,9 +35,10 @@ ALLOWED_HOSTS = env.list('ALLOWED_HOSTS', default=[])
 
 ## For Custom Apps Creat (apps/my_apps )
 CUSTOM_APPS = [
-    'apps.core.apps.CoreConfig',                      # core
-    'apps.users.apps.UsersConfig',                    # users
-    'apps.dashboards.apps.DashboardsConfig',          # dashboards
+    'apps.core.apps.CoreConfig',                # core
+    'apps.users.apps.UsersConfig',              # users
+    'apps.dashboards.apps.DashboardsConfig',    # dashboards
+    'apps.cloud.apps.CloudConfig',              # cloud
 ]
 
 
