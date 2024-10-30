@@ -38,18 +38,10 @@
                     </a>
                 </li>
 
-                <!-- section title -->
-                <div class="row navbar-vertical-label-wrapper mt-3 mb-2">
-                    <div class="col-auto navbar-vertical-label">Administration</div>
-                    <div class="col ps-0">
-                        <hr class="mb-0 navbar-vertical-divider">
-                    </div>
-                </div>
-
                 <li class="nav-item">
                     <!-- section title -->
                     <div class="row navbar-vertical-label-wrapper mt-3 mb-2">
-                        <div class="col-auto navbar-vertical-label">Control Setup</div>
+                        <div class="col-auto navbar-vertical-label">VPS Section</div>
                         <div class="col ps-0">
                             <hr class="mb-0 navbar-vertical-divider">
                         </div>
@@ -57,7 +49,53 @@
                 
                 
                     <!-- dropdown indicator of account setup-->
-                    <a class="nav-link dropdown-indicator {% active_menu request 'admins:admin_list,admins:admin_create' %}"
+                    <a class="nav-link dropdown-indicator {% active_menu request '' %}"
+                        href="#admin-setup" role="admin-setup" data-bs-toggle="collapse" aria-expanded="false"
+                        aria-controls="admin-setup">
+                        <div class="d-flex align-items-center">
+                            <span class="nav-link-icon">
+                                <span class="fas fa-user-friends"></span>
+                            </span>
+                            <span class="nav-link-text ps-1">Instence</span>
+                        </div>
+                    </a>
+                
+                    <ul class="nav collapse {% active_menu request '' 'show' %}" id="admin-setup">
+                        <li class="nav-item">
+                            <a class="nav-link {% active_menu request 'admin-list' %}" href=""
+                                aria-expanded="false">
+                                <div class="d-flex align-items-center">
+                                    <span class="nav-link-text ps-1">List</span>
+                                </div>
+                            </a>
+                        </li>
+                
+                        <li class="nav-item">
+                            <a class="nav-link {% active_menu request 'admins:admin_create' %}" 
+                            href="{% url 'cloud:instance_create' %}"
+                                aria-expanded="false">
+                                <div class="d-flex align-items-center">
+                                    <span class="nav-link-text ps-1">Create</span>
+                                </div>
+                            </a>
+                        </li>
+                    </ul>
+                
+                </li>
+
+
+                <li class="nav-item">
+                    <!-- section title -->
+                    <div class="row navbar-vertical-label-wrapper mt-3 mb-2">
+                        <div class="col-auto navbar-vertical-label">Account Setup</div>
+                        <div class="col ps-0">
+                            <hr class="mb-0 navbar-vertical-divider">
+                        </div>
+                    </div>
+                
+                
+                    <!-- dropdown indicator of account setup-->
+                    <!-- <a class="nav-link dropdown-indicator {% active_menu request 'admins:admin_list,admins:admin_create' %}"
                         href="#admin-setup" role="admin-setup" data-bs-toggle="collapse" aria-expanded="false"
                         aria-controls="admin-setup">
                         <div class="d-flex align-items-center">
@@ -76,9 +114,9 @@
                                     <span class="nav-link-text ps-1">Admin List</span>
                                 </div>
                             </a>
-                        </li>
+                        </li> -->
                 
-                        <li class="nav-item">
+                        <!-- <li class="nav-item">
                             <a class="nav-link {% active_menu request 'admins:admin_create' %}" href="{% url 'admins:admin_create' %}"
                                 aria-expanded="false">
                                 <div class="d-flex align-items-center">
@@ -86,7 +124,7 @@
                                 </div>
                             </a>
                         </li>
-                    </ul>
+                    </ul> -->
                 
                 </li>
 

@@ -12,7 +12,7 @@ class ItemName(TimestampedModel):
         return self.name
 
 
-class ItemSize(TimestampedModel):
+class ItemDetails(TimestampedModel):
     class sizeType(models.TextChoices):
         MB = 'Mb', 'mb'
         GB = 'Gb', 'gb'
@@ -23,7 +23,10 @@ class ItemSize(TimestampedModel):
         HDD  = 'HDD',  'hdd'
         NVME = 'NVME', 'nvme'
 
-    size = models.FloatField()
+    item = models.ForeignKey(ItemName, on_delete=models.CASCADE)
+
+    description = models.CharField(max_length=225, null=True, blank=True)
+    size = models.FloatField(null=True, blank=True)
     size_type = models.CharField(
                     verbose_name="Size Type", 
                     max_length=10, 
@@ -39,21 +42,13 @@ class ItemSize(TimestampedModel):
     price = models.FloatField()
 
 
-class Item(TimestampedModel):
-    item = models.ForeignKey(ItemName, on_delete=models.CASCADE)
-    details = models.OneToOneField(ItemSize, on_delete=models.CASCADE)
-
-    def __str__(self):
-        return self.item.name if self.item.name else ''
 
 
 class Instance(TimestampedModel):
     user = models.ForeignKey(User, on_delete=models.CASCADE)
-    item = models.ManyToManyField(Item)
+    item = models.ForeignKey(ItemDetails, on_delete=models.CASCADE)
     
     def __str__(self):
-        return self.user.name if self.user.name else ''
+        return f"{self.user.name if self.user.name else ''} : {self.item.item.name}"
 
-# class Configaration(TimestampedModel):
-#     instance = models.ForeignKey(Instance, on_delete=models.CASCADE)
-#     item = models.ForeignKey(Item, on_delete=models.CASCADE)
+

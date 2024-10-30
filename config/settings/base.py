@@ -110,6 +110,7 @@ TEMPLATES = [
             os.path.join(BASE_DIR, 'apps/dashboards/templates'),
             os.path.join(BASE_DIR, 'apps/auth/templates'),
             os.path.join(BASE_DIR, 'apps/admin/templates'),
+            os.path.join(BASE_DIR, 'apps/cloud/templates'),
         ],
         'APP_DIRS': True,
         'OPTIONS': {
