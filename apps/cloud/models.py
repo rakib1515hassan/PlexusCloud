@@ -41,10 +41,25 @@ class ServiceDetails(TimestampedModel):
                 )
     price = models.FloatField()
 
+    def __str__(self):
+        return self.service.name
+
+
+class AvailabilityZone(TimestampedModel):
+    name = models.CharField(max_length=225)
+    lat = models.FloatField()
+    lon = models.FloatField()
+
+    def __str__(self):
+        return self.name
 
     
 class Instance(TimestampedModel):
     user = models.ForeignKey(User, on_delete=models.CASCADE)
+    project_name = models.CharField(max_length=225)
+    name = models.CharField(max_length=255)
+    description = models.TextField(null=True, blank=True)
+    zone = models.ForeignKey(AvailabilityZone, on_delete=models.CASCADE)
     service = models.ForeignKey(ServiceName, on_delete=models.CASCADE)
     service_details = models.ForeignKey(ServiceDetails, on_delete=models.CASCADE)
 

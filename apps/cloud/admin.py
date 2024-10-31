@@ -1,5 +1,5 @@
 from django.contrib import admin
-from apps.cloud.models import ServiceDetails, ServiceName, Instance
+from apps.cloud.models import ServiceDetails, ServiceName, Instance, AvailabilityZone
 
 # Inline for showing related Instances within ServiceDetailsAdmin
 class InstanceInline(admin.TabularInline):
@@ -24,3 +24,6 @@ class InstanceAdmin(admin.ModelAdmin):
     def get_service_name(self, obj):
         return obj.service.name if obj.service else 'N/A'
     get_service_name.short_description = 'Service Name'
+
+
+admin.site.register(AvailabilityZone)
