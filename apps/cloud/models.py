@@ -5,14 +5,14 @@ User = get_user_model()
 from apps.core.models import TimestampedModel
 
 # Create your models here.
-class ItemName(TimestampedModel):
+class ServiceName(TimestampedModel):
     name = models.CharField(max_length=225)
 
     def __str__(self):
         return self.name
 
 
-class ItemDetails(TimestampedModel):
+class ServiceDetails(TimestampedModel):
     class sizeType(models.TextChoices):
         MB = 'Mb', 'mb'
         GB = 'Gb', 'gb'
@@ -23,7 +23,7 @@ class ItemDetails(TimestampedModel):
         HDD  = 'HDD',  'hdd'
         NVME = 'NVME', 'nvme'
 
-    item = models.ForeignKey(ItemName, on_delete=models.CASCADE)
+    service = models.ForeignKey(ServiceName, on_delete=models.CASCADE)
 
     description = models.CharField(max_length=225, null=True, blank=True)
     size = models.FloatField(null=True, blank=True)
@@ -42,13 +42,15 @@ class ItemDetails(TimestampedModel):
     price = models.FloatField()
 
 
-
-
+    
 class Instance(TimestampedModel):
     user = models.ForeignKey(User, on_delete=models.CASCADE)
-    item = models.ForeignKey(ItemDetails, on_delete=models.CASCADE)
-    
+    service = models.ForeignKey(ServiceName, on_delete=models.CASCADE)
+    service_details = models.ForeignKey(ServiceDetails, on_delete=models.CASCADE)
+
     def __str__(self):
-        return f"{self.user.name if self.user.name else ''} : {self.item.item.name}"
+        return f"{self.user.name if self.user.name else ''} : {self.service.service.name}"
+
+    
 
 

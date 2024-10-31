@@ -19,7 +19,7 @@ from django.views import View
 from django.views import generic
 
 ## Custom 
-from apps.cloud.models import Instance, ItemName, ItemDetails
+from apps.cloud.models import Instance, ServiceName, ServiceDetails
 
 
 
