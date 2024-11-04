@@ -1,0 +1,76 @@
+[
+    {
+        "name": "Bandwith",
+        "details": [
+            {
+                "description": null,
+                "size": 1.0,
+                "size_type": "Mb",
+                "storage_type": null,
+                "price": 100.0
+            }
+        ]
+    },
+    {
+        "name": "IP",
+        "details": [
+            {
+                "description": null,
+                "size": null,
+                "size_type": null,
+                "storage_type": null,
+                "price": 250.0
+            }
+        ]
+    },
+    {
+        "name": "Storage",
+        "details": [
+            {
+                "description": null,
+                "size": 1.0,
+                "size_type": "Gb",
+                "storage_type": "NVME",
+                "price": 10.0
+            },
+            {
+                "description": null,
+                "size": 1.0,
+                "size_type": "Gb",
+                "storage_type": "HDD",
+                "price": 2.0
+            },
+            {
+                "description": null,
+                "size": 1.0,
+                "size_type": "Gb",
+                "storage_type": "SSD",
+                "price": 5.0
+            }
+        ]
+    },
+    {
+        "name": "CPU",
+        "details": [
+            {
+                "description": null,
+                "size": 1.0,
+                "size_type": null,
+                "storage_type": null,
+                "price": 800.0
+            }
+        ]
+    },
+    {
+        "name": "RAM",
+        "details": [
+            {
+                "description": null,
+                "size": 1.0,
+                "size_type": "Gb",
+                "storage_type": null,
+                "price": 120.0
+            }
+        ]
+    }
+]

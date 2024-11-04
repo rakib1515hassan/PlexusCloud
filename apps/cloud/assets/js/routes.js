@@ -1,4 +1,4 @@
-export const ProductList = '/admin/accounting/product/list';
+export const ServiceListAPI = '/api/services/';
 
 
 

@@ -57,7 +57,7 @@
                     <div class="show_item">
                         <div class="form-group row mb-3">
                             <label class="input_label col-form-label" for="rule">
-                                RAM
+                                RAM (GB)
                                 <span class="text-danger">*</span>
                             </label>
                             <div class="input_field">
@@ -75,7 +75,7 @@
                     <div class="show_item">
                         <div class="form-group row mb-3">
                             <label class="input_label col-form-label" for="rule">
-                                CPU
+                                CPU (Core)
                                 <span class="text-danger">*</span>
                             </label>
                             <div class="input_field">
@@ -93,7 +93,7 @@
                     <div class="show_item">
                         <div class="form-group row mb-3">
                             <label class="input_label col-form-label" for="rule">
-                                Storage Type
+                                Storage (GB)
                                 <span class="text-danger">*</span>
                             </label>
                             <div class="input_field">
@@ -116,7 +116,7 @@
                     <div class="show_item">
                         <div class="form-group row mb-3">
                             <label class="input_label col-form-label" for="rule">
-                                Bandwidth
+                                Bandwidth (MB)
                                 <span class="text-danger">*</span>
                             </label>
                             <div class="input_field">
@@ -129,7 +129,7 @@
                     <div class="show_item">
                         <div class="form-group row mb-3">
                             <label class="input_label col-form-label" for="rule">
-                                IP
+                                IP 
                                 <span class="text-danger">*</span>
                             </label>
                             <div class="input_field">
@@ -151,27 +151,32 @@
                             <tbody>
                                 <tr>
                                     <td><strong>RAM:</strong></td>
-                                    <td>{{ ram || 'N/A' }}</td>
+                                    <td>{{ ram || 'N/A' }} * {{ RamPrice }} GB</td>
+                                    <td>{{ calculatedRamPrice }}</td>
                                 </tr>
                                 <tr>
                                     <td><strong>CPU:</strong></td>
-                                    <td>{{ cpu || 'N/A' }}</td>
+                                    <td>{{ cpu || 'N/A' }} * {{ CpuPrice }} Core</td>
+                                    <td>{{ calculatedCpuPrice }}</td>
                                 </tr>
                                 <tr>
                                     <td><strong>Storage:</strong></td>
-                                    <td>{{ storageSize || 'N/A' }} GB</td>
+                                    <td>{{ storageSize || 'N/A' }} * {{ StoragePrice }} GB ({{ storageType }})</td>
+                                    <td>{{ calculatedStoragePrice }}</td>
                                 </tr>
                                 <tr>
                                     <td><strong>Bandwidth:</strong></td>
-                                    <td>{{ bandwidth || 'N/A' }}</td>
+                                    <td>{{ bandwidth || 'N/A' }} * {{ BandwidthPrice }}</td>
+                                    <td>{{ calculatedBandwidthPrice }}</td>
                                 </tr>
                                 <tr>
                                     <td><strong>IP:</strong></td>
                                     <td>{{ ipType || 'N/A' }}</td>
+                                    <td>{{ calculatedIpPrice }}</td>
                                 </tr>
                                 <tr>
                                     <td><strong>Total:</strong></td>
-                                    <td>{{ calculatedTotal }}/-</td>
+                                    <td colspan="2">{{ calculatedTotal }}/-</td>
                                 </tr>
                             </tbody>
                         </table>
@@ -187,40 +192,108 @@
     </div>
 </template>
 
+<!-- import { toast } from 'vue3-toastify';
+import 'vue3-toastify/dist/index.css'; -->
+
+
 <script>
+import axios from 'axios';
+import { ServiceListAPI } from "../../js/routes";
+
 export default {
     data() {
         return {
-            project_name: '',
-            name: '',
-            availabilityZone: '',
+            // User input fields
             ram: '',
             cpu: '',
             storageType: '',
             storageSize: '',
             bandwidth: '',
             ipType: '',
-            total: 5000, // Example base price
+            serviceDetails: [],
+
+            // Prices from API
+            RamPrice: 0,
+            CpuPrice: 0,
+            StoragePrice: 0, // Dynamic price based on selected storage type
+            BandwidthPrice: 0,
+            IpPrice: 0,
         };
     },
     computed: {
-        // Dynamically calculate total based on selections, adjust logic as needed.
+        // Calculate each price based on the user input and the API-provided price
+        calculatedRamPrice() {
+            return this.ram * this.RamPrice || 0;
+        },
+        calculatedCpuPrice() {
+            return this.cpu * this.CpuPrice || 0;
+        },
+        calculatedStoragePrice() {
+            return this.storageSize * this.StoragePrice || 0;
+        },
+        calculatedBandwidthPrice() {
+            return this.bandwidth * this.BandwidthPrice || 0;
+        },
+        calculatedIpPrice() {
+            return this.IpPrice || 0;
+        },
         calculatedTotal() {
-            let total = 5000;
-            if (this.ram) total += parseInt(this.ram) * 1000;
-            if (this.cpu) total += parseInt(this.cpu) * 2000;
-            if (this.storageSize) total += parseInt(this.storageSize) * 500;
-            return total;
+            // Sum up all calculated prices for the total
+            return this.calculatedRamPrice + this.calculatedCpuPrice + this.calculatedStoragePrice + this.calculatedBandwidthPrice + this.calculatedIpPrice;
         }
     },
     methods: {
-        submitForm() {
-            // Form submission logic here
-            console.log("Form Submitted:", this.$data);
+        async fetchServiceDetails() {
+            try {
+                const response = await axios.get(ServiceListAPI);
+                this.serviceDetails = response.data;
+
+                // Map prices from the API to data properties
+                const ramDetail = this.serviceDetails.find(service => service.name === 'RAM');
+                const cpuDetail = this.serviceDetails.find(service => service.name === 'CPU');
+                const storageDetail = this.serviceDetails.find(service => service.name === 'Storage');
+                // const bandwidthDetail = this.serviceDetails.find(service => service.name === 'Bandwidth');
+                const bandwidthDetail = this.serviceDetails.find(service => service.name === 'Bandwith');
+                const ipDetail = this.serviceDetails.find(service => service.name === 'IP');
+
+                if (ramDetail) this.RamPrice = ramDetail.details[0].price;
+                if (cpuDetail) this.CpuPrice = cpuDetail.details[0].price;
+                if (bandwidthDetail) this.BandwidthPrice = bandwidthDetail.details[0].price;
+
+                // Set Storage Price based on the selected storage type
+                this.setStoragePrice();
+
+            } catch (error) {
+                console.error('Error fetching service details:', error);
+            }
+        },
+        setStoragePrice() {
+            // Find storage detail that matches the selected type and set the price
+            const storageDetail = this.serviceDetails.find(service => service.name === 'Storage');
+            if (storageDetail) {
+                const selectedStorage = storageDetail.details.find(item => item.storage_type === this.storageType);
+                this.StoragePrice = selectedStorage ? selectedStorage.price : 0;
+            }
         }
+    },
+    watch: {
+        // Watch for changes in storageType and update the price accordingly
+        storageType() {
+            this.setStoragePrice();
+        },
+        // Watch for changes in ipType and set price based on selection
+        ipType(newType) {
+            this.IpPrice = newType === 'Private' ? 250 : 0;
+        }
+    },
+    mounted() {
+        this.fetchServiceDetails();
     }
 };
 </script>
+
+
+
 
 
 <style scoped>
