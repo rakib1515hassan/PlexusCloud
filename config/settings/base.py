@@ -260,6 +260,7 @@ from config.packege.drf import *
 ##================= Service ===================================
 
 from config.services.email import *  
+from config.services.sslcommerz import *  
 # from config.services.celery import * 
 
 

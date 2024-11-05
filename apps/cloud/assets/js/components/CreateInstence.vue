@@ -183,7 +183,6 @@
                     </div>
                 </div>
 
-
                 <div class="card-footer bg-200 d-flex" style="justify-content: end;">
                     <button class="btn btn-outline-primary btn-sm" style="width: 200px;">Next</button>
                 </div>
