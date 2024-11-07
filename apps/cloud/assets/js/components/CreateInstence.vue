@@ -129,7 +129,7 @@
                     <div class="show_item">
                         <div class="form-group row mb-3">
                             <label class="input_label col-form-label" for="rule">
-                                IP 
+                                IP
                                 <span class="text-danger">*</span>
                             </label>
                             <div class="input_field">
@@ -184,20 +184,25 @@
                 </div>
 
                 <div class="card-footer bg-200 d-flex" style="justify-content: end;">
-                    <button class="btn btn-outline-primary btn-sm" style="width: 200px;">Next</button>
+                    <button class="btn btn-outline-primary btn-sm" style="width: 200px;"
+                        @click="submitPayment">Payment</button>
+
                 </div>
             </form>
         </div>
     </div>
 </template>
 
-<!-- import { toast } from 'vue3-toastify';
-import 'vue3-toastify/dist/index.css'; -->
 
 
 <script>
 import axios from 'axios';
-import { ServiceListAPI } from "../../js/routes";
+import { toast } from 'vue3-toastify';
+import 'vue3-toastify/dist/index.css';
+
+import get_csrf from "../../../../../frontend/src/utils/get_csrf";
+
+import { ServiceListAPI, SSLCommerzAPI } from "../../js/routes";
 
 export default {
     data() {
@@ -217,6 +222,9 @@ export default {
             StoragePrice: 0, // Dynamic price based on selected storage type
             BandwidthPrice: 0,
             IpPrice: 0,
+
+            // CSRF token
+            csrfToken: '',
         };
     },
     computed: {
@@ -241,6 +249,12 @@ export default {
             return this.calculatedRamPrice + this.calculatedCpuPrice + this.calculatedStoragePrice + this.calculatedBandwidthPrice + this.calculatedIpPrice;
         }
     },
+
+
+    mounted() {
+        // this.csrfToken = document.querySelector('meta[name="csrf-token"]').getAttribute('content');
+    },
+
     methods: {
         async fetchServiceDetails() {
             try {
@@ -266,6 +280,7 @@ export default {
                 console.error('Error fetching service details:', error);
             }
         },
+
         setStoragePrice() {
             // Find storage detail that matches the selected type and set the price
             const storageDetail = this.serviceDetails.find(service => service.name === 'Storage');
@@ -273,8 +288,50 @@ export default {
                 const selectedStorage = storageDetail.details.find(item => item.storage_type === this.storageType);
                 this.StoragePrice = selectedStorage ? selectedStorage.price : 0;
             }
+        },
+
+
+        async submitPayment() {
+            console.log("Payment");
+            // console.log("CSRF =", this.csrfToken);
+
+            try {
+                const response = await axios.post(SSLCommerzAPI, {
+                    order_id: "order_12345",
+                    total_amount: this.calculatedTotal,
+                    currency: "BDT",
+                    product_category: "Category",
+                    product_name: "Project Payment",
+                    customer_info: {
+                        name: "Customer Name",
+                        email: "customer@example.com",
+                        phone: "017XXXXXXXX",
+                        address1: "Customer Address",
+                        city: "Dhaka",
+                        postcode: "1216",
+                        country: "Bangladesh",
+                    }
+                }, {
+                    headers: {
+                        // 'X-CSRF-TOKEN': this.csrfToken, 
+                        "X-CSRFToken": get_csrf(), 
+                        'Content-Type': 'application/json'
+                    }
+                });
+
+                if (response.data && response.data.GatewayPageURL) {
+                    window.location.href = response.data.GatewayPageURL;
+                } else {
+                    toast.error("Failed to initiate payment.");
+                }
+            } catch (error) {
+                console.error("Payment initiation error:", error);
+                toast.error("Payment initiation failed. Please try again.");
+            }
         }
     },
+
+
     watch: {
         // Watch for changes in storageType and update the price accordingly
         storageType() {
