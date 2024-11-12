@@ -248,7 +248,7 @@ FORM_RENDERER = 'config.forms.CustomDivFormRenderer'
 
 
 ##================= Package ===================================
-from config.packege.logger import *
+# from config.packege.logger import *
 from config.packege.jwt import *
 from config.packege.drf import *
 

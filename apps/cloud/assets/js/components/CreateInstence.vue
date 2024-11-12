@@ -8,7 +8,7 @@
             </div>
         </div>
         <div class="card-body bg-light">
-            <form class="row g-3" @submit.prevent="submitForm" enctype="multipart/form-data">
+            <form class="row g-3" @submit.prevent="submitPayment">
                 <div class="col-md-8">
                     <div class="show_item">
                         <div class="form-group row mb-3">
@@ -18,7 +18,7 @@
                             </label>
                             <div class="input_field">
                                 <input type="text" class="form-control" placeholder="Write you project name..."
-                                    v-model="project_name">
+                                    v-model="project_name" required>
                             </div>
                         </div>
                     </div>
@@ -31,7 +31,7 @@
                             </label>
                             <div class="input_field">
                                 <input type="text" class="form-control" placeholder="Write you instance name..."
-                                    v-model="name">
+                                    v-model="name" required>
                             </div>
                         </div>
                     </div>
@@ -43,7 +43,7 @@
                                 <span class="text-danger">*</span>
                             </label>
                             <div class="input_field">
-                                <select class="form-select" v-model="availabilityZone">
+                                <select class="form-select" v-model="availabilityZone" required>
                                     <option value="">Select area...</option>
                                     <option value="Khulna">Khulna</option>
                                     <option value="Dhaka">Dhaka</option>
@@ -61,7 +61,7 @@
                                 <span class="text-danger">*</span>
                             </label>
                             <div class="input_field">
-                                <select class="form-select" v-model="ram">
+                                <select class="form-select" v-model="ram" required>
                                     <option value="">Select RAM...</option>
                                     <option value="1">1 GB</option>
                                     <option value="2">2 GB</option>
@@ -79,7 +79,7 @@
                                 <span class="text-danger">*</span>
                             </label>
                             <div class="input_field">
-                                <select class="form-select" v-model="cpu">
+                                <select class="form-select" v-model="cpu" required>
                                     <option value="">Select CPU...</option>
                                     <option value="1">1 Core</option>
                                     <option value="2">2 Core</option>
@@ -98,7 +98,7 @@
                             </label>
                             <div class="input_field">
                                 <div class="storage-field">
-                                    <select class="form-select" v-model="storageType">
+                                    <select class="form-select" v-model="storageType" required>
                                         <option value="">Select Type...</option>
                                         <option value="SSD">SSD</option>
                                         <option value="HDD">HDD</option>
@@ -121,7 +121,7 @@
                             </label>
                             <div class="input_field">
                                 <input type="text" class="form-control" placeholder="Write bandwidth amount..."
-                                    v-model="bandwidth">
+                                    v-model="bandwidth" required>
                             </div>
                         </div>
                     </div>
@@ -133,7 +133,7 @@
                                 <span class="text-danger">*</span>
                             </label>
                             <div class="input_field">
-                                <select class="form-select" v-model="ipType">
+                                <select class="form-select" v-model="ipType" required>
                                     <option value="">Select Type...</option>
                                     <option value="Public">Public</option>
                                     <option value="Private">Private</option>
@@ -184,9 +184,7 @@
                 </div>
 
                 <div class="card-footer bg-200 d-flex" style="justify-content: end;">
-                    <button class="btn btn-outline-primary btn-sm" style="width: 200px;"
-                        @click="submitPayment">Payment</button>
-
+                    <button class="btn btn-outline-primary btn-sm" style="width: 200px;" type="submit">Payment</button>
                 </div>
             </form>
         </div>
@@ -208,6 +206,9 @@ export default {
     data() {
         return {
             // User input fields
+            project_name: '',
+            name: '',
+            availabilityZone: '',
             ram: '',
             cpu: '',
             storageType: '',
@@ -227,6 +228,7 @@ export default {
             csrfToken: '',
         };
     },
+
     computed: {
         // Calculate each price based on the user input and the API-provided price
         calculatedRamPrice() {
@@ -249,7 +251,6 @@ export default {
             return this.calculatedRamPrice + this.calculatedCpuPrice + this.calculatedStoragePrice + this.calculatedBandwidthPrice + this.calculatedIpPrice;
         }
     },
-
 
     mounted() {
         // this.csrfToken = document.querySelector('meta[name="csrf-token"]').getAttribute('content');
@@ -290,10 +291,8 @@ export default {
             }
         },
 
-
         async submitPayment() {
             console.log("Payment");
-            // console.log("CSRF =", this.csrfToken);
 
             try {
                 const response = await axios.post(SSLCommerzAPI, {
@@ -313,12 +312,12 @@ export default {
                     }
                 }, {
                     headers: {
-                        // 'X-CSRF-TOKEN': this.csrfToken, 
-                        "X-CSRFToken": get_csrf(), 
+                        "X-CSRFToken": get_csrf(),
                         'Content-Type': 'application/json'
                     }
                 });
 
+                // Redirect to SSLCommerz GatewayPageURL if provided
                 if (response.data && response.data.GatewayPageURL) {
                     window.location.href = response.data.GatewayPageURL;
                 } else {
@@ -329,6 +328,7 @@ export default {
                 toast.error("Payment initiation failed. Please try again.");
             }
         }
+
     },
 
 
@@ -339,7 +339,8 @@ export default {
         },
         // Watch for changes in ipType and set price based on selection
         ipType(newType) {
-            this.IpPrice = newType === 'Private' ? 250 : 0;
+            // this.IpPrice = newType === 'Private' ? 250 : 0;
+            this.IpPrice = newType === 'Public' ? 250 : 0;
         }
     },
     mounted() {

@@ -1,122 +1,64 @@
 from django.views import View
 from django.shortcuts import redirect
 from django.urls import reverse
-# from sslcommerz_python.payment import SSLCSession
 from sslcommerz_lib import SSLCOMMERZ 
 from decimal import Decimal
 from django.conf import settings
 from django.http import JsonResponse
 from django.http import HttpResponse
-
-# class InitiatePaymentView(View):
-#     def post(self, request, *args, **kwargs):
-
-#         sslcz = SSLCOMMERZ(
-#             store_id   = settings.SSLCOMMERZ_STORE_ID,
-#             store_pass = settings.SSLCOMMERZ_STORE_PASSWORD,
-#             sandbox    = settings.SSLCOMMERZ_SANDBOX_MODE
-#         )
-
-#         # Sample transaction data
-#         order_id = "order_12345"  # Generate or get your order ID dynamically
-#         total_amount = Decimal('100.50')  # Replace with the actual amount
-
-#         # Set transaction info
-#         sslcz.set_urls(
-#             success_url = request.build_absolute_uri(reverse('payment_success')),
-#             fail_url    = request.build_absolute_uri(reverse('payment_failed')),
-#             cancel_url  = request.build_absolute_uri(reverse('payment_canceled')),
-#             ipn_url     = request.build_absolute_uri(reverse('payment_ipn'))
-#         )
-        
-#         sslcz.set_product_integration(
-#             total_amount = total_amount,
-#             currency     = 'BDT',
-#             product_category ='Category',
-#             product_name     = 'Product Name',
-#             product_profile  = 'general'
-#         )
-        
-#         # Set customer info (customize as needed)
-#         sslcz.set_customer_info(
-#             name  = 'Customer Name',
-#             email = 'customer@example.com',
-#             city  = 'Dhaka',
-#             address1 = 'Customer Address',
-#             postcode = '1216',
-#             country  = 'Bangladesh',
-#             phone = '017XXXXXXXX'
-#         )
-
-#         # Set shipping info if needed
-#         sslcz.set_shipping_info(
-#             shipping_method = 'Courier',
-#             num_of_items    = 1,
-#             shipping_address = 'Customer Address',
-#             shipping_city    = 'Dhaka',
-#             shipping_postcode = '1216',
-#             shipping_country  = 'Bangladesh'
-#         )
-        
-#         # Get the payment URL
-#         response_data = sslcz.init_payment()
-#         if response_data.get('status') == 'SUCCESS':
-#             # Redirect user to SSLCommerz payment page
-#             return redirect(response_data['GatewayPageURL'])
-#         else:
-#             # Handle errors (e.g., log the error, show an error message)
-#             return JsonResponse({'error': 'Failed to initiate payment'}, status=500)
-
-
+import json
 
 class InitiatePaymentView(View):
     def post(self, request, *args, **kwargs):
-        data = request.POST
+        user = request.user
 
-        print("--------------------")
-        print("OK")
-        print("--------------------")
+        try:
+            data = json.loads(request.body)
+        except json.JSONDecodeError:
+            return JsonResponse({"error": "Invalid JSON data."}, status=400)
 
-        # sslcz = SSLCOMMERZ(
-        #     store_id   = settings.SSLCOMMERZ_STORE_ID,
-        #     store_pass = settings.SSLCOMMERZ_STORE_PASSWORD,
-        #     sandbox    = settings.SSLCOMMERZ_SANDBOX_MODE
-        # )
+        sslcz = SSLCOMMERZ({
+            'store_id':   settings.SSLCOMMERZ_STORE_ID,
+            'store_pass': settings.SSLCOMMERZ_STORE_PASSWORD,
+            'issandbox':  settings.SSLCOMMERZ_SANDBOX_MODE
+        })
 
-        # # Use dynamic data from request payload
-        # order_id = data.get("order_id", "default_order_id")
-        # total_amount = Decimal(data.get("total_amount", "0"))
+        payment_data = {
+            'total_amount': str(Decimal(data.get("total_amount", "0"))),  
+            'currency': data.get("currency", "BDT"),
+            'tran_id' : data.get("order_id", "default_order_id"),
 
-        # sslcz.set_urls(
-        #     success_url = request.build_absolute_uri(reverse('payment_success')),
-        #     fail_url    = request.build_absolute_uri(reverse('payment_failed')),
-        #     cancel_url  = request.build_absolute_uri(reverse('payment_canceled')),
-        #     ipn_url     = request.build_absolute_uri(reverse('payment_ipn'))
-        # )
-        
-        # sslcz.set_product_integration(
-        #     total_amount = total_amount,
-        #     currency     = data.get("currency", "BDT"),
-        #     product_category = data.get("product_category", "Category"),
-        #     product_name     = data.get("product_name", "Product Name"),
-        #     product_profile  = 'general'
-        # )
-        
-        # sslcz.set_customer_info(
-        #     name  = data.get("customer_info[name]", "Customer Name"),
-        #     email = data.get("customer_info[email]", "customer@example.com"),
-        #     city  = data.get("customer_info[city]", "Dhaka"),
-        #     address1 = data.get("customer_info[address1]", "Customer Address"),
-        #     postcode = data.get("customer_info[postcode]", "1216"),
-        #     country  = data.get("customer_info[country]", "Bangladesh"),
-        #     phone = data.get("customer_info[phone]", "017XXXXXXXX")
-        # )
+            ## Set URLs for payment success, failure, and cancellation
+            'success_url': request.build_absolute_uri(reverse('cloud:payment_success')),
+            'fail_url'   : request.build_absolute_uri(reverse('cloud:payment_failed')),
+            'cancel_url' : request.build_absolute_uri(reverse('cloud:payment_canceled')),
+            'ipn_url'    : request.build_absolute_uri(reverse('cloud:payment_ipn')),
 
-        # response_data = sslcz.init_payment()
+            ## Set Product Info.
+            'product_category': data.get("product_category", "Category"),
+            'product_name': data.get("product_name", "Product Name"),
 
-        
-        response_data = ''
-        return JsonResponse(response_data)
+            ## Set Customer Info from the authenticated user
+            'cus_name': data["customer_info"].get("name", f"{user.first_name} {user.last_name}"),
+            'cus_email': data["customer_info"].get("email", user.email),
+            'cus_add1': data["customer_info"].get("address1", "Customer Address"),  
+            'cus_city': data["customer_info"].get("city", "Dhaka"),
+            'cus_postcode': data["customer_info"].get("postcode", "1216"),
+            'cus_country': data["customer_info"].get("country", "Bangladesh"),
+            'cus_phone': data["customer_info"].get("phone", user.phone if user.phone else "017XXXXXXXX"),
+
+            'shipping_method': "NO",
+            'num_of_item': 1,
+            'product_profile': 'general',
+        }
+
+        response_data = sslcz.createSession(payment_data)
+
+
+        if response_data.get("status") == "SUCCESS" and response_data.get("GatewayPageURL"):
+            return JsonResponse({"GatewayPageURL": response_data["GatewayPageURL"]})
+        else:
+            return JsonResponse({"error": "Failed to initiate payment."}, status=500)
 
 
 
@@ -131,3 +73,6 @@ def payment_cancel(request):
 
 def payment_ipn(request):
     return HttpResponse("<h1>Payment IPN</h1>")
+
+
+
