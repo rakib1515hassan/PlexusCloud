@@ -8,12 +8,54 @@ from django.http import JsonResponse
 from django.http import HttpResponse
 import json
 
+## 
+from apps.cloud.models import Instance, ServiceDetails
+
 class InitiatePaymentView(View):
     def post(self, request, *args, **kwargs):
         user = request.user
 
         try:
             data = json.loads(request.body)
+
+            project_name = data.get('project_name')
+            instence_name = data.get('instence_name')
+            availability_zone = data.get('availability_zone')
+            ram = data.get('ram')
+            cpu = data.get('cpu')
+            storage_type = data.get('storage_type')
+            storage_size = data.get('storage_size')
+            bandwidth = data.get('bandwidth')
+            ip_type = data.get('ip_type')
+            total_amount = data.get('total_amount')
+
+            print("----------------------------")
+            print("project_name =", project_name)
+            print("instence_name =", instence_name)
+            print("availability_zone =", availability_zone)
+            print("ram =", ram)
+            print("cpu =", cpu)
+            print("storage_type =", storage_type)
+            print("storage_size =", storage_size)
+            print("bandwidth =", bandwidth)
+            print("ip_type =", ip_type)
+            print("total_amount =", total_amount)
+            print("----------------------------")
+
+            ins = Instance.objects.create(
+                user = user,
+                name = instence_name,
+                zone = availability_zone,
+                ram  = ram,
+                cpu  = cpu,
+                ip   = ip_type,
+                total = total_amount,
+                project_name = project_name,
+                description  = 'Test Description',
+                storage   = f"{storage_size} {storage_type}",
+                bandwidth = bandwidth,
+            )
+
         except json.JSONDecodeError:
             return JsonResponse({"error": "Invalid JSON data."}, status=400)
 
@@ -62,14 +104,23 @@ class InitiatePaymentView(View):
 
 
 
+
+
 def payment_success(request):
     return HttpResponse("<h1>Payment Success</h1>")
+
+
 
 def payment_fail(request):
     return HttpResponse("<h1>Payment Fail</h1>")
 
+
+
 def payment_cancel(request):
     return HttpResponse("<h1>Payment Cancel</h1>")
+
+
+
 
 def payment_ipn(request):
     return HttpResponse("<h1>Payment IPN</h1>")

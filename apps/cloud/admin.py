@@ -18,12 +18,10 @@ class ServiceDetailsAdmin(admin.ModelAdmin):
 
 @admin.register(Instance)
 class InstanceAdmin(admin.ModelAdmin):
-    fields = ['user', 'service', 'service_details']
-    list_display = ['user', 'get_service_name']
+    fields = ['user', 'project_name', 'name']
+    list_display = ['user', 'project_name']
 
-    def get_service_name(self, obj):
-        return obj.service.name if obj.service else 'N/A'
-    get_service_name.short_description = 'Service Name'
+
 
 
 admin.site.register(AvailabilityZone)

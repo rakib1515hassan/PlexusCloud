@@ -292,25 +292,46 @@ export default {
         },
 
         async submitPayment() {
-            console.log("Payment");
+            // console.log("Payment");
+            const data = {
+                project_name: this.project_name,
+                instence_name: this.name,
+                availability_zone: this.availabilityZone,
+                ram: this.ram,
+                cpu: this.cpu,
+                storage_type: this.storageType,
+                storage_size: this.storageSize,
+                bandwidth: this.bandwidth,
+                ip_type: this.ipType,
+                total_amount: this.calculatedTotal,
+                customer_info: {
+                    name: "Customer Name",
+                    email: "customer@example.com",
+                    phone: "017XXXXXXXX",
+                    address1: "Customer Address",
+                    city: "Dhaka",
+                    postcode: "1216",
+                    country: "Bangladesh",
+                }
+            };
+
+
+            console.log({
+                project_name: this.project_name,
+                instence_name: this.name,
+                availability_zone: this.availabilityZone,
+                ram: this.ram,
+                cpu: this.cpu,
+                storage_type: this.storageType,
+                storage_size: this.storageSize,
+                bandwidth: this.bandwidth,
+                ip_type: this.ipType,
+                total_amount: this.calculatedTotal
+            });
+
 
             try {
-                const response = await axios.post(SSLCommerzAPI, {
-                    order_id: "order_12345",
-                    total_amount: this.calculatedTotal,
-                    currency: "BDT",
-                    product_category: "Category",
-                    product_name: "Project Payment",
-                    customer_info: {
-                        name: "Customer Name",
-                        email: "customer@example.com",
-                        phone: "017XXXXXXXX",
-                        address1: "Customer Address",
-                        city: "Dhaka",
-                        postcode: "1216",
-                        country: "Bangladesh",
-                    }
-                }, {
+                const response = await axios.post(SSLCommerzAPI, data, {
                     headers: {
                         "X-CSRFToken": get_csrf(),
                         'Content-Type': 'application/json'

@@ -60,11 +60,17 @@ class Instance(TimestampedModel):
     name = models.CharField(max_length=255)
     description = models.TextField(null=True, blank=True)
     zone = models.ForeignKey(AvailabilityZone, on_delete=models.CASCADE)
-    service = models.ForeignKey(ServiceName, on_delete=models.CASCADE)
-    service_details = models.ForeignKey(ServiceDetails, on_delete=models.CASCADE)
+
+    ram = models.CharField(max_length=200)
+    cpu = models.CharField(max_length=200)
+    storage = models.CharField(max_length=200)
+    bandwidth = models.CharField(max_length=200)
+    ip = models.CharField(max_length=200)
+    total = models.IntegerField()
 
     def __str__(self):
-        return f"{self.user.name if self.user.name else ''} : {self.service.service.name}"
+        return f"{self.user.name if self.user.name else ''} : {self.project_name}"
+    
 
     
 
