@@ -97,35 +97,31 @@ def payment_success(request):
     if not tranId:
         return HttpResponse("Transaction ID not provided.", status=400)
 
-    # Retrieve the instance based on the transaction ID
+    ## Retrieve the instance based on the transaction ID
     instance = Instance.objects.filter(tranId=tranId).first()
     if not instance:
         return JsonResponse({"error": "Instance not found."}, status=404)
 
-    # Update the instance as paid and active
+    ## Update the instance as paid and active
     instance.is_active = True
     instance.is_payment = True
     instance.save()
 
-    print("------------------------")
-    print("instance =", instance)
-    print("------------------------")
+    ##! Call OpenStack instance creation service
+    # created_instance = openstack.create_openstack_instance(
+    #     user = request.user,
+    #     project_name      = instance.project_name,
+    #     instance_name     = instance.name,
+    #     availability_zone = instance.zone,
+    #     ram = instance.ram,
+    #     cpu = instance.cpu,
+    #     storage_type = instance.storage.split()[1],
+    #     storage_size = instance.storage.split()[0],
+    #     bandwidth    = instance.bandwidth,
+    #     ip_type      = instance.ip
+    # )
 
-    # return JsonResponse({"status": "Instance created successfully"})
-
-    # Call OpenStack instance creation service
-    created_instance = openstack.create_openstack_instance(
-        user = request.user,
-        project_name      = instance.project_name,
-        instance_name     = instance.name,
-        availability_zone = instance.zone,
-        ram = instance.ram,
-        cpu = instance.cpu,
-        storage_type = instance.storage.split()[1],
-        storage_size = instance.storage.split()[0],
-        bandwidth    = instance.bandwidth,
-        ip_type      = instance.ip
-    )
+    created_instance = openstack.create_openstack_instance(user = request.user)
 
     if created_instance:
         return JsonResponse({"status": "Instance created successfully"})

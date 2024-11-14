@@ -1,9 +1,20 @@
-# utils/openstack_utils.py
 import openstack
 
-def create_openstack_instance(user, project_name, instance_name, availability_zone, ram, cpu, storage_type, storage_size, bandwidth, ip_type):
-    try:
 
+def create_openstack_instance(user):
+
+    project_name  = "Test Project"
+    instance_name = "Test Instance"
+    availability_zone = "Dhaka"
+    storage_type = "SSD"
+    storage_size = 500    ## GB
+    bandwidth    = 10     ## MB
+    ip_type      = "IPv4" ## IPv4 or IPv6
+    ram_info     = 4096   ## In MB
+    cpu_info     = 4      ## Number of vCPUs
+
+    try:
+        ## Connect to OpenStack
         conn = openstack.connect(
             auth_url     = "http://103.131.144.53:5000",
             project_name = "admin",
@@ -14,158 +25,62 @@ def create_openstack_instance(user, project_name, instance_name, availability_zo
             project_domain_id = "default",
         )
 
-        # Assuming `conn` is the OpenStack connection
+        image_id   = "53b6c85f-a26c-4df1-9210-a79b01f5589e"  
+        network_id = "753a7568-4735-441c-82fd-5be900c4be90" 
+        
+        flavor = {
+            "ram": ram_info,
+            "cpu": cpu_info
+        }
+
+        ## List all flavors available
+        flavors = conn.compute.flavors()
+
+        ## Find the flavor that matches the required RAM and CPU
+        selected_flavor = None
+        for flavor in flavors:
+            if flavor.ram == ram_info and flavor.vcpus == cpu_info:
+                selected_flavor = flavor
+                break
+
+        if selected_flavor:
+            flavor_id = selected_flavor.id
+        else:
+            ## Handle case where no matching flavor is found (e.g., use default flavor)
+            flavor_id = "m1.small"  ## Or a fallback flavor
+
+
+        metadata = {
+            "project_name" : project_name,
+            "user" : user.email,               ## Use the user's email as metadata
+            "ram"  : str(ram_info) + " MB",    ## Store the RAM size as metadata
+            "cpu"  : str(cpu_info) + " vCPUs", ## Store the CPU count as metadata
+            "storage"     : f"{storage_size} {storage_type}",  ## Store the storage size and type
+            "bandwidth"   : bandwidth,         ## Store the bandwidth
+            "ip_type"     : "private",         ## Store the IP type (e.g., public or private)
+            "environment" : "development",     ## Store environment info (e.g., production, development)
+            "deployment_type": "standard",     ## Define the type of deployment
+            "instance_tag"   : "web-server",   ## Custom tag for categorizing the server
+            "created_by"     : user.email      ## Store the username of the person who created the server
+        }
+
+        ## Now use `flavor_id` when creating the server
         instance = conn.compute.create_server(
-            name=instance_name,
-            flavor={
-                "ram": ram,
-                "cpu": cpu
-            },
-            image="image_id",  # Replace with actual image ID
-            network="network_id",  # Replace with actual network ID
-            availability_zone=availability_zone,
-            metadata={
-                "project_name": project_name,
-                "user": user.username,
-                "storage": f"{storage_size} {storage_type}",
-                "bandwidth": bandwidth,
-                "ip_type": ip_type,
-            }
+            name     = instance_name,
+            flavor   = flavor_id,   ## Use the dynamically selected flavor
+            image    = image_id,    ## Use the image ID
+            networks = [{"uuid": network_id}],      ## Use the network ID
+            availability_zone = availability_zone,  ## Use the availability zone
+            metadata = metadata     ## Optional: add metadata
         )
 
-        # Wait for the instance to be active
+        ## Wait for the server to become active
         instance = conn.compute.wait_for_server(instance)
 
-        return instance  # Return instance details
+        return instance  ## Return the instance details once created
 
     except Exception as e:
-        # Log and handle any OpenStack connection errors
+        ## Log any errors that occur
         print(f"Failed to create OpenStack instance: {e}")
         return None
 
-
-
-
-# def create_openstack_instance(instance):
-#     """
-#     Creates an OpenStack instance using the specified details from the Django instance model.
-#     """
-#     conn = openstack.connect(
-#         auth_url="http://your_openstack_auth_url",
-#         project_name="your_project_name",
-#         username="your_username",
-#         password="your_password",
-#         region_name="your_region_name",
-#         user_domain_id="your_user_domain_id",
-#         project_domain_id="your_project_domain_id",
-#     )
-
-#     # Find the image, flavor, and network for the server
-#     image = conn.compute.find_image('your_image_name')  # Replace with actual image name
-#     flavor = conn.compute.find_flavor('your_flavor_name')  # Replace with actual flavor name
-#     network = conn.network.find_network('your_network_name')  # Replace with actual network name
-
-#     # Create the server with specified configurations
-#     server = conn.compute.create_server(
-#         name=instance.name,
-#         image_id=image.id,
-#         flavor_id=flavor.id,
-#         networks=[{"uuid": network.id}],
-#         key_name='your_keypair_name'  # Optional: Specify SSH keypair if needed
-#     )
-
-#     # Wait until the server is active
-#     conn.compute.wait_for_server(server)
-#     print(f"OpenStack instance '{server.name}' created with ID: {server.id}")
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-# import openstack
-
-# # Initialize connection
-# conn = openstack.connect(
-#     auth_url="http://your_openstack_auth_url",
-#     project_name="your_project_name",
-#     username="your_username",
-#     password="your_password",
-#     region_name="your_region_name",
-#     user_domain_id="your_user_domain_id",
-#     project_domain_id="your_project_domain_id",
-# )
-
-# # Instance parameters
-# image_name = "your_image_name"       # Name of the image to use
-# flavor_name = "your_flavor_name"      # Name of the flavor, or create a new one below
-# network_name = "your_network_name"    # Network to connect the instance to
-# instance_name = "your_instance_name"  # Name of the new instance
-# fixed_ip = "your_preferred_ip_address"  # Specify a preferred IP address, if available
-# security_group_name = "your_security_group"  # Optional security group
-# keypair_name = "your_keypair_name"    # Optional keypair for SSH access
-
-# # 1. Find the image and network
-# image = conn.compute.find_image(image_name)
-# network = conn.network.find_network(network_name)
-
-# # 2. Create or find the flavor with the desired CPU and RAM settings
-# # You can create a custom flavor if needed
-# desired_vcpus = 2   # Number of vCPUs
-# desired_ram = 4096  # RAM in MB (e.g., 4096MB = 4GB)
-# desired_disk = 20   # Disk size in GB
-
-# flavor = conn.compute.find_flavor(flavor_name)
-# if not flavor:
-#     flavor = conn.compute.create_flavor(
-#         name=flavor_name,
-#         ram=desired_ram,
-#         vcpus=desired_vcpus,
-#         disk=desired_disk,
-#     )
-#     print(f"Custom flavor '{flavor_name}' created with {desired_vcpus} vCPUs, {desired_ram}MB RAM, and {desired_disk}GB disk.")
-
-# # 3. Create a port with a specific IP address (optional)
-# port = conn.network.create_port(
-#     network_id=network.id,
-#     fixed_ips=[{"ip_address": fixed_ip}]
-# )
-
-# # 4. Create the instance with the specified configurations
-# server = conn.compute.create_server(
-#     name=instance_name,
-#     image_id=image.id,
-#     flavor_id=flavor.id,
-#     networks=[{"port": port.id}],
-#     key_name=keypair_name,
-#     security_groups=[{"name": security_group_name}],
-# )
-
-# # Wait until the server is active
-# server = conn.compute.wait_for_server(server)
-# print(f"Instance '{instance_name}' created successfully with ID: {server.id} and IP: {fixed_ip}")
