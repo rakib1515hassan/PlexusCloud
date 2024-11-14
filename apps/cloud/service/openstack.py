@@ -5,13 +5,13 @@ def create_openstack_instance(user, project_name, instance_name, availability_zo
     try:
 
         conn = openstack.connect(
-            auth_url="http://your_openstack_auth_url",
-            project_name="your_project_name",
-            username="your_username",
-            password="your_password",
-            region_name="your_region_name",
-            user_domain_id="your_user_domain_id",
-            project_domain_id="your_project_domain_id",
+            auth_url     = "http://your_openstack_auth_url",
+            project_name = "your_project_name",
+            username     = "your_username",
+            password     = "your_password",
+            region_name  = "your_region_name",
+            user_domain_id    = "your_user_domain_id",
+            project_domain_id = "your_project_domain_id",
         )
 
         # Assuming `conn` is the OpenStack connection
