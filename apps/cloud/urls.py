@@ -15,7 +15,8 @@ urlpatterns = [
 
 
     ## API
-    path('api/services/', apis.ServiceNameListView.as_view(), name='service-list-api'),
+    path('api/services/', apis.ServiceNameListView.as_view(), name='service_list_api'),
+    path('api/availabil-area-zone-list/', apis.AvailabilityZoneListAPIView.as_view(), name='availabil_area_zone_list'),
 
     path('api/payment/', sslcommerzView.InitiatePaymentView.as_view(), name='payment_method'),
 

@@ -43,12 +43,11 @@
                                 <span class="text-danger">*</span>
                             </label>
                             <div class="input_field">
-                                <select class="form-select" v-model="availabilityZone" required>
+                                <select class="form-select" v-model="availabilityZone">
                                     <option value="">Select area...</option>
-                                    <option value="Khulna">Khulna</option>
-                                    <option value="Dhaka">Dhaka</option>
-                                    <option value="Rajshai">Rajshai</option>
-                                    <option value="Chitogong">Chitogong</option>
+                                    <option v-for="zone in availabilityZones" :key="zone.id" :value="zone.id">
+                                        {{ zone.name }}
+                                    </option>
                                 </select>
                             </div>
                         </div>
@@ -120,7 +119,7 @@
                                 <span class="text-danger">*</span>
                             </label>
                             <div class="input_field">
-                                <input type="text" class="form-control" placeholder="Write bandwidth amount..."
+                                <input type="number" class="form-control" placeholder="Write bandwidth amount..."
                                     v-model="bandwidth" required>
                             </div>
                         </div>
@@ -200,7 +199,7 @@ import 'vue3-toastify/dist/index.css';
 
 import get_csrf from "../../../../../frontend/src/utils/get_csrf";
 
-import { ServiceListAPI, SSLCommerzAPI } from "../../js/routes";
+import { ServiceListAPI, AvailabilityZoneAPI, SSLCommerzAPI } from "../../js/routes";
 
 export default {
     data() {
@@ -209,6 +208,7 @@ export default {
             project_name: '',
             name: '',
             availabilityZone: '',
+            availabilityZones: [],
             ram: '',
             cpu: '',
             storageType: '',
@@ -252,10 +252,6 @@ export default {
         }
     },
 
-    mounted() {
-        // this.csrfToken = document.querySelector('meta[name="csrf-token"]').getAttribute('content');
-    },
-
     methods: {
         async fetchServiceDetails() {
             try {
@@ -281,6 +277,16 @@ export default {
                 console.error('Error fetching service details:', error);
             }
         },
+
+        async fetchAvailabilityZone() {
+            try {
+                const response = await axios.get(AvailabilityZoneAPI);
+                this.availabilityZones = response.data; 
+            } catch (error) {
+                console.error('Error fetching availability zone:', error);
+            }
+        },
+
 
         setStoragePrice() {
             // Find storage detail that matches the selected type and set the price
@@ -365,7 +371,9 @@ export default {
         }
     },
     mounted() {
+        // this.csrfToken = document.querySelector('meta[name="csrf-token"]').getAttribute('content');
         this.fetchServiceDetails();
+        this.fetchAvailabilityZone();
     }
 };
 </script>

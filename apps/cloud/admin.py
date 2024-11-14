@@ -16,12 +16,13 @@ class ServiceDetailsAdmin(admin.ModelAdmin):
     list_display = ['service', 'storage_type', 'description', 'size', 'size_type', 'price']
     # inlines = [InstanceInline]  # Display related Instances inline in ServiceDetails
 
-@admin.register(Instance)
-class InstanceAdmin(admin.ModelAdmin):
-    fields = ['user', 'project_name', 'name']
-    list_display = ['user', 'project_name']
+# @admin.register(Instance)
+# class InstanceAdmin(admin.ModelAdmin):
+#     fields = ['user', 'project_name', 'name']
+#     list_display = ['user', 'project_name']
 
 
 
 
+admin.site.register(Instance)
 admin.site.register(AvailabilityZone)

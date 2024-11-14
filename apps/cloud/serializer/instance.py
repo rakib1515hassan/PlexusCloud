@@ -1,5 +1,5 @@
 from rest_framework import serializers
-from apps.cloud.models import ServiceName, ServiceDetails
+from apps.cloud.models import ServiceName, ServiceDetails, AvailabilityZone
 
 class ServiceDetailsSerializer(serializers.ModelSerializer):
     class Meta:
@@ -12,3 +12,9 @@ class ServiceNameSerializer(serializers.ModelSerializer):
     class Meta:
         model = ServiceName
         fields = ['name', 'details']
+
+
+class AvailabilityZoneSerializer(serializers.ModelSerializer):
+    class Meta:
+        model = AvailabilityZone
+        fields = '__all__'

@@ -226,7 +226,7 @@ OTP_TIMEOUT = 3  ## OTP timeout set 3 minutes
 
 
 DEFAULT_PAGINATION_LIMIT = 2
-FORM_RENDERER = 'config.forms.CustomDivFormRenderer'
+# FORM_RENDERER = 'config.forms.CustomDivFormRenderer'
 
 
 
