@@ -16,13 +16,14 @@ def create_openstack_instance(user):
     try:
         ## Connect to OpenStack
         conn = openstack.connect(
-            auth_url     = "http://103.131.144.53:5000",
+            auth_url     = "http://103.131.144.53:5000/v3",
             project_name = "admin",
             username     = "user_iaas1",
             password     = "3BcdK4b=",
             region_name  = "RegionOne",
             user_domain_id    = "default",
             project_domain_id = "default",
+            timeout = 60,
         )
 
         image_id   = "53b6c85f-a26c-4df1-9210-a79b01f5589e"  
