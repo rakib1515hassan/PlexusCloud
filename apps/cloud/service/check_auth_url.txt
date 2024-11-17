@@ -1,0 +1,27 @@
+Use the following to verify API accessibility
+    >> curl http://103.131.144.155:5000/v3/
+
+
+
+curl -i -X POST http://103.131.144.155:5000/v3/auth/tokens \
+-H "Content-Type: application/json" \
+-d '{
+  "auth": {
+    "identity": {
+      "methods": ["password"],
+      "password": {
+        "user": {
+          "name": "user_iaas1",
+          "domain": { "id": "default" },
+          "password": "3BcdK4b="
+        }
+      }
+    },
+    "scope": {
+      "project": {
+        "name": "admin",
+        "domain": { "id": "default" }
+      }
+    }
+  }
+}'

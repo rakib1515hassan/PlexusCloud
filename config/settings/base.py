@@ -261,6 +261,7 @@ from config.packege.drf import *
 
 from config.services.email import *  
 from config.services.sslcommerz import *  
+from config.services.open_stack import * 
 # from config.services.celery import * 
 
 
