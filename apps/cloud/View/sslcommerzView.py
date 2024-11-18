@@ -7,6 +7,13 @@ from django.conf import settings
 from django.http import JsonResponse, HttpResponse
 from django.views.decorators.csrf import csrf_exempt
 import json, uuid
+import time
+import logging
+
+# Set up logging
+logging.basicConfig(level=logging.INFO)
+logger = logging.getLogger(__name__)
+
 
 ## Custom Import
 from apps.cloud.models import Instance, ServiceDetails, AvailabilityZone
@@ -121,7 +128,14 @@ def payment_success(request):
     #     ip_type      = instance.ip
     # )
 
-    created_instance = openstack.create_openstack_instance(user = request.user)
+    try:
+        created_instance = openstack.create_openstack_instance(user = request.user)
+        if created_instance:
+            logger.info(f"Instance created successfully: {created_instance.name}")
+        else:
+            logger.error("Failed to create OpenStack instance")
+    except Exception as e:
+        logger.error(f"Error in create_openstack_instance: {str(e)}")
 
     if created_instance:
         return JsonResponse({"status": "Instance created successfully"})
