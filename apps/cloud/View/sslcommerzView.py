@@ -94,7 +94,6 @@ class InitiatePaymentView(View):
 
 
 
-
 @csrf_exempt
 def payment_success(request):
     """
@@ -115,32 +114,76 @@ def payment_success(request):
     instance.save()
 
     ##! Call OpenStack instance creation service
-    # created_instance = openstack.create_openstack_instance(
-    #     user = request.user,
-    #     project_name      = instance.project_name,
-    #     instance_name     = instance.name,
-    #     availability_zone = instance.zone,
-    #     ram = instance.ram,
-    #     cpu = instance.cpu,
-    #     storage_type = instance.storage.split()[1],
-    #     storage_size = instance.storage.split()[0],
-    #     bandwidth    = instance.bandwidth,
-    #     ip_type      = instance.ip
-    # )
-
-    try:
-        created_instance = openstack.create_openstack_instance(user = request.user)
-        if created_instance:
-            logger.info(f"Instance created successfully: {created_instance.name}")
-        else:
-            logger.error("Failed to create OpenStack instance")
-    except Exception as e:
-        logger.error(f"Error in create_openstack_instance: {str(e)}")
+    created_instance = openstack.create_openstack_instance(
+        user = request.user,
+        project_name      = instance.project_name,
+        instance_name     = instance.name,
+        availability_zone = instance.zone,
+        ram = instance.ram,
+        cpu = instance.cpu,
+        storage_type = instance.storage.split()[1],
+        storage_size = instance.storage.split()[0],
+        bandwidth    = instance.bandwidth,
+        ip_type      = instance.ip
+    )
 
     if created_instance:
         return JsonResponse({"status": "Instance created successfully"})
     else:
         return JsonResponse({"error": "Failed to create OpenStack instance"}, status=500)
+
+
+
+
+
+
+
+# @csrf_exempt
+# def payment_success(request):
+#     """
+#     Handles the success callback after payment is successful and creates the OpenStack instance.
+#     """
+#     tranId = request.GET.get('tranId')
+#     if not tranId:
+#         return HttpResponse("Transaction ID not provided.", status=400)
+
+#     ## Retrieve the instance based on the transaction ID
+#     instance = Instance.objects.filter(tranId=tranId).first()
+#     if not instance:
+#         return JsonResponse({"error": "Instance not found."}, status=404)
+
+#     ## Update the instance as paid and active
+#     instance.is_active = True
+#     instance.is_payment = True
+#     instance.save()
+
+#     ##! Call OpenStack instance creation service
+#     # created_instance = openstack.create_openstack_instance(
+#     #     user = request.user,
+#     #     project_name      = instance.project_name,
+#     #     instance_name     = instance.name,
+#     #     availability_zone = instance.zone,
+#     #     ram = instance.ram,
+#     #     cpu = instance.cpu,
+#     #     storage_type = instance.storage.split()[1],
+#     #     storage_size = instance.storage.split()[0],
+#     #     bandwidth    = instance.bandwidth,
+#     #     ip_type      = instance.ip
+#     # )
+
+#     try:
+#         created_instance = openstack.create_openstack_instance(user = request.user)
+#         if created_instance:
+#             logger.info(f"Instance created successfully: {created_instance.name}")
+#         else:
+#             logger.error("Failed to create OpenStack instance")
+#     except Exception as e:
+#         logger.error(f"Error in create_openstack_instance: {str(e)}")
+
+#     if created_instance:
+#         return JsonResponse({"status": "Instance created successfully"})
+#     else:
+#         return JsonResponse({"error": "Failed to create OpenStack instance"}, status=500)
 
 
 
