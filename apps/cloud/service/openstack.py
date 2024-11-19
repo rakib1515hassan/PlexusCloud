@@ -58,6 +58,9 @@ class CreateOpenstackInstance:
         if response.status_code == 201:
             return response.headers.get("X-Subject-Token")
         else:
+            print("-----------------------")
+            print("Error: ",response.content)
+            print("-----------------------")
             raise Exception(f"Failed to obtain OpenStack token: {response.content.decode()}")
 
 
@@ -90,6 +93,10 @@ class CreateOpenstackInstance:
 
     def launch_instance(self, flavor_data):
         token = self.get_openstack_token()
+
+        print("-----------------------")
+        print("Token : {token}")
+        print("-----------------------")
 
         images_response = requests.get(
             self.image_url,

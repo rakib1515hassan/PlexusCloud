@@ -114,23 +114,23 @@ def payment_success(request):
     instance.save()
 
     ##! Call OpenStack instance creation service
-    created_instance = openstack.create_openstack_instance(
-        user = request.user,
-        project_name      = instance.project_name,
-        instance_name     = instance.name,
-        availability_zone = instance.zone,
-        ram = instance.ram,
-        cpu = instance.cpu,
-        storage_type = instance.storage.split()[1],
-        storage_size = instance.storage.split()[0],
-        bandwidth    = instance.bandwidth,
-        ip_type      = instance.ip
-    )
+    try:
+        instance_obj = openstack.CreateOpenstackInstance()  
 
-    if created_instance:
-        return JsonResponse({"status": "Instance created successfully"})
-    else:
-        return JsonResponse({"error": "Failed to create OpenStack instance"}, status=500)
+        flavor_data = {
+            "name"      : "custom-flavor",
+            "ram"       : 4,     ## RAM in GB
+            "cpu"       : 2,     ## CPU cores
+            "storage"   : 50,    ## Default storage in GB
+            # "user_name" : request.user.email.split('@')[0],
+            "user_name" : "rakib1515hassan",
+        }
+
+        created_instance = instance_obj.launch_instance(flavor_data)
+        return JsonResponse({"status": "Instance created successfully", "details": created_instance})
+
+    except Exception as e:
+        return JsonResponse({"error": f"Failed to create OpenStack instance: {str(e)}"}, status=500)
 
 
 
