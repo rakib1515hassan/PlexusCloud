@@ -33,9 +33,9 @@ class CreateOpenstackInstance:
                     "methods": ["password"],
                     "password": {
                         "user": {
-                            "name": self.username,
-                            "domain": {"name": self.project_domain_name},
-                            "password": self.password,
+                            "name"     : self.username,
+                            "domain"   : {"name": self.project_domain_name},
+                            "password" : self.password,
                         }
                     },
                 },
